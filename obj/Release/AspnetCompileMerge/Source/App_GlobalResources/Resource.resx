@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>Inventory Managment Information System</value>
+  </data>
+  <data name="BackToLogin" xml:space="preserve">
+    <value>Back To Login</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btnVerify" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="ContactAddress" xml:space="preserve">
+    <value>Armsdale Building, HP Secretariat, Chotta Shimla (HP)- 171002</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>secysec-hp[at]nic[dot]in</value>
+  </data>
+  <data name="ContactFax" xml:space="preserve">
+    <value>(Fax)  : 2620152</value>
+  </data>
+  <data name="ContactPhone" xml:space="preserve">
+    <value>(Office): 0177-2620152</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Disclaimer" xml:space="preserve">
+    <value>Disclaimer</value>
+  </data>
+  <data name="DisclaimerText" xml:space="preserve">
+    <value>The Web Application, Inventory Managment Information System, has been developed for the State Election Commission, Himachal Pradesh by NIC Himachal Pradesh State Centre, Shimla. For any query/clarification, please get in touch with the respective District Panchayat Officer of your District. Any complaint or query requiring intervention of the State Election Commissioner may be routed through the concerned Deputy Commissioner.</value>
+  </data>
+  <data name="ForgetPasswordResource" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="ForgetPasswordTitle" xml:space="preserve">
+    <value>Enter your User ID below to reset your password</value>
+  </data>
+  <data name="GoText" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="lblConfirmDelete" xml:space="preserve">
+    <value>Are you sure you want to delete?</value>
+  </data>
+  <data name="lblFemale" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="lblHq" xml:space="preserve">
+    <value>Headquarter</value>
+  </data>
+  <data name="lblMale" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="lblNameEn" xml:space="preserve">
+    <value>Name (In English)</value>
+  </data>
+  <data name="lblNameHi" xml:space="preserve">
+    <value>Name (In Hindi)</value>
+  </data>
+  <data name="lblOther" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="lblPanchayat" xml:space="preserve">
+    <value>Gram Panchayat</value>
+  </data>
+  <data name="lblPanchSamiti" xml:space="preserve">
+    <value>Panchayat Samiti</value>
+  </data>
+  <data name="lblStateName" xml:space="preserve">
+    <value>Himachal Pradesh</value>
+  </data>
+  <data name="lblWard" xml:space="preserve">
+    <value>Ward</value>
+  </data>
+  <data name="lblZilaParishad" xml:space="preserve">
+    <value>Zila Parishad</value>
+  </data>
+  <data name="lnkDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lnkEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lblMC" xml:space="preserve">
+    <value>Municipal Corporation</value>
+  </data>
+  <data name="lblULB" xml:space="preserve">
+    <value>Urban Local Body</value>
+  </data>
+  <data name="errElectors" xml:space="preserve">
+    <value>Enter No. of Male and Female Electors</value>
+  </data>
+  <data name="lblNA" xml:space="preserve">
+    <value>Not Assigned</value>
+  </data>
+  <data name="lblState" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="menuChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="menuDashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="menuLogout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="menuMyProfile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="menuApplicationManagement" xml:space="preserve">
+    <value>Application Management</value>
+  </data>
+  <data name="menuBlockMaster" xml:space="preserve">
+    <value>Block Master</value>
+  </data>
+  <data name="menuDataEntry" xml:space="preserve">
+    <value>Data Management</value>
+  </data>
+  <data name="menuDataEntryStatus" xml:space="preserve">
+    <value>Data Entry Status</value>
+  </data>
+  <data name="menuDistrictMaster" xml:space="preserve">
+    <value>District Master</value>
+  </data>
+  <data name="menuNomination" xml:space="preserve">
+    <value>Nomination</value>
+  </data>
+  <data name="menuPanWardMaster" xml:space="preserve">
+    <value>Panchayat Ward Master</value>
+  </data>
+  <data name="menuReservationStatus" xml:space="preserve">
+    <value>Reservation Status</value>
+  </data>
+  <data name="AboutApplication" xml:space="preserve">
+    <value>Inventory Managment Information System</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="RelatedLinks" xml:space="preserve">
+    <value>Related Links</value>
+  </data>
+  <data name="SEC" xml:space="preserve">
+    <value>State Election Commission, Himachal Pradesh</value>
+  </data>
+  <data name="HP" xml:space="preserve">
+    <value>Himachal Pradesh</value>
+  </data>
+  <data name="ConfirmOTP" xml:space="preserve">
+    <value>Confirm OTP</value>
+  </data>
+  <data name="ECI_Search" xml:space="preserve">
+    <value>National Voter's Service Portal</value>
+  </data>
+  <data name="ECI" xml:space="preserve">
+    <value>Election Commission of India</value>
+  </data>
+  <data name="hpgovt" xml:space="preserve">
+    <value>Govt of Himachal Pradesh, India</value>
+  </data>
+  <data name="lblNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lblYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="menuReports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="userRole" xml:space="preserve">
+    <value>User Role:</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="ofBlk" xml:space="preserve">
+    <value>Panchayat Samiti:</value>
+  </data>
+  <data name="ofDis" xml:space="preserve">
+    <value>Zila:</value>
+  </data>
+  <data name="ofMC" xml:space="preserve">
+    <value>MC:</value>
+  </data>
+  <data name="ofPanch" xml:space="preserve">
+    <value>Gram Panchayat:</value>
+  </data>
+  <data name="ofULB" xml:space="preserve">
+    <value>ULB:</value>
+  </data>
+  <data name="ofZPWard" xml:space="preserve">
+    <value>ZP Ward:</value>
+  </data>
+  <data name="SECHP" xml:space="preserve">
+    <value>State Election Commission HP</value>
+  </data>
+  <data name="lnkAdd" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="menuReservationStatusGP" xml:space="preserve">
+    <value>Gram Panchayat/ULBs</value>
+  </data>
+  <data name="menuReservationStatusZPPS" xml:space="preserve">
+    <value>Zila Parishad/Panchayat Samiti</value>
+  </data>
+  <data name="lblMCWard" xml:space="preserve">
+    <value>Municipal Corporation Ward</value>
+  </data>
+  <data name="menuUlbWardRes" xml:space="preserve">
+    <value>ULB Wards Reservation</value>
+  </data>
+  <data name="lblPollStation" xml:space="preserve">
+    <value>Polling Station</value>
+  </data>
+  <data name="lblPSWard" xml:space="preserve">
+    <value>Panchayat Samiti Ward</value>
+  </data>
+  <data name="lblZPWard" xml:space="preserve">
+    <value>Zila Parishad Ward</value>
+  </data>
+  <data name="ViewAnnexure" xml:space="preserve">
+    <value>View Annexure-I</value>
+  </data>
+  <data name="Blk" xml:space="preserve">
+    <value>Panchayat Samiti</value>
+  </data>
+  <data name="Dis" xml:space="preserve">
+    <value>Zila</value>
+  </data>
+  <data name="Mc" xml:space="preserve">
+    <value>Municipal Corporation</value>
+  </data>
+  <data name="Ulb" xml:space="preserve">
+    <value>Urban Local Body</value>
+  </data>
+  <data name="errNoElectionProgram" xml:space="preserve">
+    <value>No Election Program Found</value>
+  </data>
+  <data name="menuLogin" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="menuClose" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="menuRural" xml:space="preserve">
+    <value>Rural</value>
+  </data>
+  <data name="menuUrban" xml:space="preserve">
+    <value>Urban</value>
+  </data>
+  <data name="PollDay" xml:space="preserve">
+    <value>Poll Date</value>
+  </data>
+  <data name="menuPollResultsPs" xml:space="preserve">
+    <value>Panchayat Samiti</value>
+  </data>
+  <data name="menuPollResultsZp" xml:space="preserve">
+    <value>Zila Parishad</value>
+  </data>
+  <data name="menuPollResultsGp" xml:space="preserve">
+    <value>Gram Panchayat</value>
+  </data>
+  <data name="menuHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="menuRepresentatives" xml:space="preserve">
+    <value>Elected Representatives</value>
+  </data>
+  <data name="PriTerm" xml:space="preserve">
+    <value>PRI Term</value>
+  </data>
+  <data name="menuNomSummaryMc" xml:space="preserve">
+    <value>Nagar Nigam</value>
+  </data>
+  <data name="menuNomSummaryUlb" xml:space="preserve">
+    <value>Nagar Panchayat</value>
+  </data>
+  <data name="menuReservationStatusMC" xml:space="preserve">
+    <value>MC Wards Reservation</value>
+  </data>
+  <data name="noOfWards" xml:space="preserve">
+    <value>No. Of Wards</value>
+  </data>
+  <data name="AnnexureUnavailable" xml:space="preserve">
+    <value>Annexure-I Not Available</value>
+  </data>
+  <data name="noOfPollStations" xml:space="preserve">
+    <value>No. Of Polling Stations</value>
+  </data>
+  <data name="lblPollTotal" xml:space="preserve">
+    <value>% Polled/Total- </value>
+  </data>
+  <data name="lblPradhan" xml:space="preserve">
+    <value>Pradhan</value>
+  </data>
+  <data name="lblUpPradhan" xml:space="preserve">
+    <value>Up Pradhan</value>
+  </data>
+  <data name="lblWmGp" xml:space="preserve">
+    <value>Panchayat Ward Member</value>
+  </data>
+  <data name="lblWmMc" xml:space="preserve">
+    <value>MC Ward Member</value>
+  </data>
+  <data name="lblWmUlb" xml:space="preserve">
+    <value>ULB Ward Member</value>
+  </data>
+  <data name="ElectionType" xml:space="preserve">
+    <value>Election Type</value>
+  </data>
+  <data name="menuAddBallot" xml:space="preserve">
+    <value>My Ballot Boxes</value>
+  </data>
+  <data name="menuAddEVM" xml:space="preserve">
+    <value>Add EVM</value>
+  </data>
+  <data name="menuAddStationary" xml:space="preserve">
+    <value>Add Items</value>
+  </data>
+  <data name="lblListEVM" xml:space="preserve">
+    <value>List of EVMs</value>
+  </data>
+  <data name="Apr" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="Apr1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Aug" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="Aug1" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Dec" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="Dec1" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="Feb1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Jan" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="Jan1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="Jul1" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="Jun1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="Mar1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="May1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="Nov1" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="Oct1" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Sel" xml:space="preserve">
+    <value>-Select-</value>
+  </data>
+  <data name="Sel1" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="Sep1" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="menuAddStore" xml:space="preserve">
+    <value>Add EVM Warehouse</value>
+  </data>
+  <data name="lblListBallotBox" xml:space="preserve">
+    <value>List of Ballot Boxes</value>
+  </data>
+  <data name="lnkQR" xml:space="preserve">
+    <value>QR Code</value>
+  </data>
+  <data name="lblListStationary" xml:space="preserve">
+    <value>List of Stock and stationery</value>
+  </data>
+  <data name="menuBallotBoxAllocation" xml:space="preserve">
+    <value>Allocate</value>
+  </data>
+  <data name="menuEVMAllocation" xml:space="preserve">
+    <value>Allocate EVM Units</value>
+  </data>
+  <data name="menuEVMSummary" xml:space="preserve">
+    <value>EVM Unit Wise Summary</value>
+  </data>
+  <data name="menuPrintQR" xml:space="preserve">
+    <value>Print QR Code</value>
+  </data>
+  <data name="ERMS" xml:space="preserve">
+    <value>Electoral Roll Management System</value>
+  </data>
+  <data name="ERMS_Search" xml:space="preserve">
+    <value>Search Electoral Roll</value>
+  </data>
+  <data name="txtVDMS" xml:space="preserve">
+    <value>Voting Day Monitoring System Mobile App</value>
+  </data>
+  <data name="VDMS" xml:space="preserve">
+    <value>Voting Day Monitoring System</value>
+  </data>
+  <data name="menuAllocateEVM" xml:space="preserve">
+    <value>Allocate EVM Unit</value>
+  </data>
+  <data name="menuAllocateStationery" xml:space="preserve">
+    <value>Allocate</value>
+  </data>
+  <data name="menuGenerateQR" xml:space="preserve">
+    <value>Generate QR Code</value>
+  </data>
+  <data name="lblListEVMPendingQR" xml:space="preserve">
+    <value>List of Units Pending for QR Code Generation</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>Warehouse </value>
+  </data>
+  <data name="menuBBSummary" xml:space="preserve">
+    <value>Unit Summary</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="lblListBU" xml:space="preserve">
+    <value>List of EVM Ballot Units</value>
+  </data>
+  <data name="lblListCU" xml:space="preserve">
+    <value>List of EVM Control Units</value>
+  </data>
+  <data name="WarehouseLocationNotFound" xml:space="preserve">
+    <value>Warehouse Location Not Found</value>
+  </data>
+  <data name="menuViewWarehouse" xml:space="preserve">
+    <value>View Warehouse</value>
+  </data>
+  <data name="menuMobileApp" xml:space="preserve">
+    <value>EVM Tracking Mobile App</value>
+  </data>
+  <data name="lblListFLC" xml:space="preserve">
+    <value>List of EVMs FLC (First Level Check) in District</value>
+  </data>
+  <data name="menuUpdateFLC" xml:space="preserve">
+    <value>Update FLC Details</value>
+  </data>
+  <data name="menuViewFLC" xml:space="preserve">
+    <value>View FLC Details</value>
+  </data>
+  <data name="menuUpdateStationeryStock" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="menuUpdateStock" xml:space="preserve">
+    <value>Add / Modify Items</value>
+  </data>
+  <data name="BallotBox" xml:space="preserve">
+    <value>Ballot Box</value>
+  </data>
+  <data name="BallotUnit" xml:space="preserve">
+    <value>Ballot Unit</value>
+  </data>
+  <data name="ControlUnit" xml:space="preserve">
+    <value>Contro lUnit</value>
+  </data>
+  <data name="btn_add_new" xml:space="preserve">
+    <value>Add New Stock</value>
+  </data>
+  <data name="DeActivateStockMaster" xml:space="preserve">
+    <value>Deactivate</value>
+  </data>
+  <data name="UpdateStockMaster" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ReActivateStockMaster" xml:space="preserve">
+    <value>Re-Activate</value>
+  </data>
+  <data name="menuEVMList" xml:space="preserve">
+    <value>EVM Unit List</value>
+  </data>
+  <data name="menuBallotHeader" xml:space="preserve">
+    <value>Ballot Box</value>
+  </data>
+  <data name="menuEVMHeader" xml:space="preserve">
+    <value>EVM</value>
+  </data>
+  <data name="menuStationaryHeader" xml:space="preserve">
+    <value>Stock and stationery</value>
+  </data>
+  <data name="menuDisposeStationery" xml:space="preserve">
+    <value>Mark Disposed</value>
+  </data>
+  <data name="menuConsumedStationery" xml:space="preserve">
+    <value>Update Consumption</value>
+  </data>
+  <data name="PageResource1" xml:space="preserve">
+    <value>Inventory MIS State Election Commission, Himachal Pradesh</value>
+  </data>
+  <data name="menuStationaryStockSummary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="menuBBUnitList" xml:space="preserve">
+    <value>Unit List</value>
+  </data>
+</root>

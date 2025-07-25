@@ -1,0 +1,6298 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SEC_InventoryMgmt
+</name>
+</assembly>
+<members>
+<member name="T:SEC_InventoryMgmt.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SEC_InventoryMgmt.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:SEC_InventoryMgmt.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:SEC_InventoryMgmt.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:SEC_InventoryMgmt.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:SEC_InventoryMgmt.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:SEC_InventoryMgmt.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox_QR_List._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox_QR_List._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox_QR_List._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._formNom">
+<summary>
+formNom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._txtUnitID">
+<summary>
+txtUnitID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._ddlSeries">
+<summary>
+ddlSeries control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._ddlModel">
+<summary>
+ddlModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._ddlMon">
+<summary>
+ddlMon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._ddlYr">
+<summary>
+ddlYr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._txtUnitCounts">
+<summary>
+txtUnitCounts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._txtFromSrNo">
+<summary>
+txtFromSrNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._RegularExpressionValidator2">
+<summary>
+RegularExpressionValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._txtToSrNo">
+<summary>
+txtToSrNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addBallotBox._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._formNom">
+<summary>
+formNom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._txtUnitID">
+<summary>
+txtUnitID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._txtUnitSeries">
+<summary>
+txtUnitSeries control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._RegularExpressionValidator2">
+<summary>
+RegularExpressionValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._txtUnitSrNo">
+<summary>
+txtUnitSrNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._ddlMake">
+<summary>
+ddlMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._ddlModel">
+<summary>
+ddlModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._ddlMon">
+<summary>
+ddlMon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._ddlYr">
+<summary>
+ddlYr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._ddlAvailableAt">
+<summary>
+ddlAvailableAt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._txtLat">
+<summary>
+txtLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._RangeValidator1">
+<summary>
+RangeValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._txtLong">
+<summary>
+txtLong control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._RangeValidator2">
+<summary>
+RangeValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._ddlOperationStatus">
+<summary>
+ddlOperationStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._view_button">
+<summary>
+view_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addEVM._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._lblrbUnitType">
+<summary>
+lblrbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._hidden_id">
+<summary>
+hidden_id control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._hidden_itemType">
+<summary>
+hidden_itemType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._hidden_itemFor">
+<summary>
+hidden_itemFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._hidden_itemSpecification">
+<summary>
+hidden_itemSpecification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._ItemName">
+<summary>
+ItemName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._ItemDescription">
+<summary>
+ItemDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._ItemNameLocal">
+<summary>
+ItemNameLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._ItemDescriptionLocal">
+<summary>
+ItemDescriptionLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._alert_div">
+<summary>
+alert_div control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._lbl_alert">
+<summary>
+lbl_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.AddNewMaster._submitButton">
+<summary>
+submitButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._ddldis">
+<summary>
+ddldis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._txtFLC_date">
+<summary>
+txtFLC_date control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._RangeValidatorDt1">
+<summary>
+RangeValidatorDt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._txtHallName">
+<summary>
+txtHallName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._txtHallNameLocal">
+<summary>
+txtHallNameLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._txtHallAddress">
+<summary>
+txtHallAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._RegularExpressionValidator2">
+<summary>
+RegularExpressionValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._txtHallAddressLocal">
+<summary>
+txtHallAddressLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._ddlFlcBy">
+<summary>
+ddlFlcBy control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.addFLC._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._rbDis_wh">
+<summary>
+rbDis_wh control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._lblWh">
+<summary>
+lblWh control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._ddlWH">
+<summary>
+ddlWH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._lblMappingCount">
+<summary>
+lblMappingCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._lbox_unmapped_panchayat">
+<summary>
+lbox_unmapped_panchayat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._right_button_all">
+<summary>
+right_button_all control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._right_button">
+<summary>
+right_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._left_button">
+<summary>
+left_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._left_button_all">
+<summary>
+left_button_all control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._lbox_mapped_in_ward">
+<summary>
+lbox_mapped_in_ward control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVMWH._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxBlocksParked._litUserId">
+<summary>
+litUserId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxBlocksParked._litPrevCode">
+<summary>
+litPrevCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxBlocksParked._messageRow">
+<summary>
+messageRow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxBlocksParked._litMessage">
+<summary>
+litMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxBlocksParked._gvBlocksParked">
+<summary>
+gvBlocksParked control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._litUserId">
+<summary>
+litUserId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._litLocation">
+<summary>
+litLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._lnkStateParked">
+<summary>
+lnkStateParked control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._litStateParked">
+<summary>
+litStateParked control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._lnkStateInTransit">
+<summary>
+lnkStateInTransit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._litStateInTransit">
+<summary>
+litStateInTransit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._lnkMyStockParked">
+<summary>
+lnkMyStockParked control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._litMyStockParked">
+<summary>
+litMyStockParked control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._lnkInward">
+<summary>
+lnkInward control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._litInward">
+<summary>
+litInward control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._lnkOutward">
+<summary>
+lnkOutward control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._litOutward">
+<summary>
+litOutward control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotboxDashboard._litErrorMessage">
+<summary>
+litErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxDetailList._litUserId">
+<summary>
+litUserId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxDetailList._litLocation">
+<summary>
+litLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxDetailList._messageRow">
+<summary>
+messageRow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxDetailList._litMessage">
+<summary>
+litMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxDetailList._gvBallotBoxDetail">
+<summary>
+gvBallotBoxDetail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxSerialList._messageRow">
+<summary>
+messageRow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxSerialList._litMessage">
+<summary>
+litMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxSerialList._gvSerials">
+<summary>
+gvSerials control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxSizeList._litUserId">
+<summary>
+litUserId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxSizeList._litZone">
+<summary>
+litZone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxSizeList._messageRow">
+<summary>
+messageRow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxSizeList._litMessage">
+<summary>
+litMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxSizeList._gvBoxSizes">
+<summary>
+gvBoxSizes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.MiscPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._lblrbUnitType">
+<summary>
+lblrbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._hidden_id">
+<summary>
+hidden_id control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._hidden_itemType">
+<summary>
+hidden_itemType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._hidden_itemFor">
+<summary>
+hidden_itemFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._hidden_itemSpecification">
+<summary>
+hidden_itemSpecification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._ItemName">
+<summary>
+ItemName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._ItemDescription">
+<summary>
+ItemDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._ItemNameLocal">
+<summary>
+ItemNameLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._ItemDescriptionLocal">
+<summary>
+ItemDescriptionLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._de_activation_remakrs">
+<summary>
+de_activation_remakrs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._alert_div">
+<summary>
+alert_div control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._lbl_alert">
+<summary>
+lbl_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.ReActivateMaster._submitButton">
+<summary>
+submitButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._lblrbUnitType">
+<summary>
+lblrbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._hidden_id">
+<summary>
+hidden_id control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._hidden_itemType">
+<summary>
+hidden_itemType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._hidden_itemFor">
+<summary>
+hidden_itemFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._hidden_itemSpecification">
+<summary>
+hidden_itemSpecification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._ItemName">
+<summary>
+ItemName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._ItemDescription">
+<summary>
+ItemDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._ItemNameLocal">
+<summary>
+ItemNameLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._ItemDescriptionLocal">
+<summary>
+ItemDescriptionLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._de_activation_remakrs">
+<summary>
+de_activation_remakrs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._alert_div">
+<summary>
+alert_div control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._lbl_alert">
+<summary>
+lbl_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.DeactivateMaster._submitButton">
+<summary>
+submitButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._lblrbUnitType">
+<summary>
+lblrbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._hidden_id">
+<summary>
+hidden_id control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._hidden_itemType">
+<summary>
+hidden_itemType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._hidden_itemFor">
+<summary>
+hidden_itemFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._hidden_itemSpecification">
+<summary>
+hidden_itemSpecification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._ItemName">
+<summary>
+ItemName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._ItemDescription">
+<summary>
+ItemDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._ItemNameLocal">
+<summary>
+ItemNameLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._ItemDescriptionLocal">
+<summary>
+ItemDescriptionLocal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._alert_div">
+<summary>
+alert_div control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._lbl_alert">
+<summary>
+lbl_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EditMaster._submitButton">
+<summary>
+submitButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.frmError._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.frmError._lblErrorCode">
+<summary>
+lblErrorCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.frmError._lblErrorMessage">
+<summary>
+lblErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.frmError._litStackTrace">
+<summary>
+litStackTrace control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.frmError._lblUserCode">
+<summary>
+lblUserCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._div_state">
+<summary>
+div_state control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._lblState">
+<summary>
+lblState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._ddlState">
+<summary>
+ddlState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._div_district">
+<summary>
+div_district control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._div_block">
+<summary>
+div_block control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._lblBlk">
+<summary>
+lblBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._ddlBlk">
+<summary>
+ddlBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._div_Polparty">
+<summary>
+div_Polparty control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._lblPolparty">
+<summary>
+lblPolparty control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._ddlPolparty">
+<summary>
+ddlPolparty control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._existing_grid1">
+<summary>
+existing_grid1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.BallotBoxAllocation._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.RestoreSession._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._rbPriPost">
+<summary>
+rbPriPost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._DV">
+<summary>
+DV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._rbBallotBoxStationery">
+<summary>
+rbBallotBoxStationery control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockConsume._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._rbPriPost">
+<summary>
+rbPriPost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._DV">
+<summary>
+DV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._rbBallotBoxStationery">
+<summary>
+rbBallotBoxStationery control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockDispose._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._dvBlock">
+<summary>
+dvBlock control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._lblBlk">
+<summary>
+lblBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._ddlBlk">
+<summary>
+ddlBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._btnExport">
+<summary>
+btnExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._map_button">
+<summary>
+map_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBoxList._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._rbPriPost">
+<summary>
+rbPriPost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._DV">
+<summary>
+DV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._rbBallotBoxStationery">
+<summary>
+rbBallotBoxStationery control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryStock._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._rbPriPost">
+<summary>
+rbPriPost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._DV">
+<summary>
+DV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._rbBallotBoxStationery">
+<summary>
+rbBallotBoxStationery control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._btn_add_new">
+<summary>
+btn_add_new control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateStationeryMasters._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._rbPriPost">
+<summary>
+rbPriPost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._DV">
+<summary>
+DV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._rbBallotBoxStationery">
+<summary>
+rbBallotBoxStationery control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._dvBlock">
+<summary>
+dvBlock control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._lblBlk">
+<summary>
+lblBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._ddlBlk">
+<summary>
+ddlBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._lbl_block_hint">
+<summary>
+lbl_block_hint control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._lblMappingCount">
+<summary>
+lblMappingCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockAllocation._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._rbPriPost">
+<summary>
+rbPriPost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._DV">
+<summary>
+DV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._rbBallotBoxStationery">
+<summary>
+rbBallotBoxStationery control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._dvBlock">
+<summary>
+dvBlock control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._lblBlk">
+<summary>
+lblBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._ddlBlk">
+<summary>
+ddlBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._btnExport">
+<summary>
+btnExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.StationeryStockSummary._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._dvPri">
+<summary>
+dvPri control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lblElectionFor">
+<summary>
+lblElectionFor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._rbPriPost">
+<summary>
+rbPriPost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lblDis">
+<summary>
+lblDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._ddlDis">
+<summary>
+ddlDis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._dvBlock">
+<summary>
+dvBlock control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lblBlk">
+<summary>
+lblBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._ddlBlk">
+<summary>
+ddlBlk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._dvPanch">
+<summary>
+dvPanch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lblPanch">
+<summary>
+lblPanch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._ddlPanch">
+<summary>
+ddlPanch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._dvWard">
+<summary>
+dvWard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lblConsWard">
+<summary>
+lblConsWard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._ddlConsWard">
+<summary>
+ddlConsWard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lblMappingCount">
+<summary>
+lblMappingCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lbox_unmapped_panchayat">
+<summary>
+lbox_unmapped_panchayat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._right_button_all">
+<summary>
+right_button_all control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._right_button">
+<summary>
+right_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._left_button">
+<summary>
+left_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._left_button_all">
+<summary>
+left_button_all control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lbox_mapped_in_ward">
+<summary>
+lbox_mapped_in_ward control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.allocateEVM._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:SEC_InventoryMgmt.Resources.Resource">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.AboutApplication">
+<summary>
+  Looks up a localized string similar to Inventory Managment Information System.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.AboutUs">
+<summary>
+  Looks up a localized string similar to About Us.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.AnnexureUnavailable">
+<summary>
+  Looks up a localized string similar to Annexure-I Not Available.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ApplicationName">
+<summary>
+  Looks up a localized string similar to Inventory Managment Information System.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Apr">
+<summary>
+  Looks up a localized string similar to April.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Apr1">
+<summary>
+  Looks up a localized string similar to 4.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Aug">
+<summary>
+  Looks up a localized string similar to August.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Aug1">
+<summary>
+  Looks up a localized string similar to 8.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.BackToLogin">
+<summary>
+  Looks up a localized string similar to Back To Login.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.BallotBox">
+<summary>
+  Looks up a localized string similar to Ballot Box.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.BallotUnit">
+<summary>
+  Looks up a localized string similar to Ballot Unit.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Blk">
+<summary>
+  Looks up a localized string similar to Panchayat Samiti.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.btnCancel">
+<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.btnSave">
+<summary>
+  Looks up a localized string similar to Save.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.btnSubmit">
+<summary>
+  Looks up a localized string similar to Submit.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.btnVerify">
+<summary>
+  Looks up a localized string similar to Verify.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.btn_add_new">
+<summary>
+  Looks up a localized string similar to Add New Stock.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ConfirmOTP">
+<summary>
+  Looks up a localized string similar to Confirm OTP.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ContactAddress">
+<summary>
+  Looks up a localized string similar to Armsdale Building, HP Secretariat, Chotta Shimla (HP)- 171002.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ContactEmail">
+<summary>
+  Looks up a localized string similar to secysec-hp[at]nic[dot]in.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ContactFax">
+<summary>
+  Looks up a localized string similar to (Fax)  : 2620152.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ContactPhone">
+<summary>
+  Looks up a localized string similar to (Office): 0177-2620152.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ContactUs">
+<summary>
+  Looks up a localized string similar to Contact.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ControlUnit">
+<summary>
+  Looks up a localized string similar to Contro lUnit.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.DeActivateStockMaster">
+<summary>
+  Looks up a localized string similar to Deactivate.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Dec">
+<summary>
+  Looks up a localized string similar to December.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Dec1">
+<summary>
+  Looks up a localized string similar to 12.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Dis">
+<summary>
+  Looks up a localized string similar to Zila.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Disclaimer">
+<summary>
+  Looks up a localized string similar to Disclaimer.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.DisclaimerText">
+<summary>
+  Looks up a localized string similar to The Web Application, Inventory Managment Information System, has been developed for the State Election Commission, Himachal Pradesh by NIC Himachal Pradesh State Centre, Shimla. For any query/clarification, please get in touch with the respective District Panchayat Officer of your District. Any complaint or query requiring intervention of the State Election Commissioner may be routed through the concerned Deputy Commissioner..
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Download">
+<summary>
+  Looks up a localized string similar to Download.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ECI">
+<summary>
+  Looks up a localized string similar to Election Commission of India.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ECI_Search">
+<summary>
+  Looks up a localized string similar to National Voter&apos;s Service Portal.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ElectionType">
+<summary>
+  Looks up a localized string similar to Election Type.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ERMS">
+<summary>
+  Looks up a localized string similar to Electoral Roll Management System.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ERMS_Search">
+<summary>
+  Looks up a localized string similar to Search Electoral Roll.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.errElectors">
+<summary>
+  Looks up a localized string similar to Enter No. of Male and Female Electors.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.errNoElectionProgram">
+<summary>
+  Looks up a localized string similar to No Election Program Found.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ExportExcel">
+<summary>
+  Looks up a localized string similar to Export to Excel.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Feb">
+<summary>
+  Looks up a localized string similar to February.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Feb1">
+<summary>
+  Looks up a localized string similar to 2.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ForgetPasswordResource">
+<summary>
+  Looks up a localized string similar to Forgot Password?.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ForgetPasswordTitle">
+<summary>
+  Looks up a localized string similar to Enter your User ID below to reset your password.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.GoText">
+<summary>
+  Looks up a localized string similar to Go.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.HP">
+<summary>
+  Looks up a localized string similar to Himachal Pradesh.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.hpgovt">
+<summary>
+  Looks up a localized string similar to Govt of Himachal Pradesh, India.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Jan">
+<summary>
+  Looks up a localized string similar to January.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Jan1">
+<summary>
+  Looks up a localized string similar to 1.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Jul">
+<summary>
+  Looks up a localized string similar to July.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Jul1">
+<summary>
+  Looks up a localized string similar to 7.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Jun">
+<summary>
+  Looks up a localized string similar to June.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Jun1">
+<summary>
+  Looks up a localized string similar to 6.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblConfirmDelete">
+<summary>
+  Looks up a localized string similar to Are you sure you want to delete?.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblFemale">
+<summary>
+  Looks up a localized string similar to Female.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblHq">
+<summary>
+  Looks up a localized string similar to Headquarter.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblListBallotBox">
+<summary>
+  Looks up a localized string similar to List of Ballot Boxes.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblListBU">
+<summary>
+  Looks up a localized string similar to List of EVM Ballot Units.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblListCU">
+<summary>
+  Looks up a localized string similar to List of EVM Control Units.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblListEVM">
+<summary>
+  Looks up a localized string similar to List of EVMs.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblListEVMPendingQR">
+<summary>
+  Looks up a localized string similar to List of Units Pending for QR Code Generation.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblListFLC">
+<summary>
+  Looks up a localized string similar to List of EVMs FLC (First Level Check) in District.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblListStationary">
+<summary>
+  Looks up a localized string similar to List of Stock and stationery.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblMale">
+<summary>
+  Looks up a localized string similar to Male.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblMC">
+<summary>
+  Looks up a localized string similar to Municipal Corporation.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblMCWard">
+<summary>
+  Looks up a localized string similar to Municipal Corporation Ward.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblNA">
+<summary>
+  Looks up a localized string similar to Not Assigned.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblNameEn">
+<summary>
+  Looks up a localized string similar to Name (In English).
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblNameHi">
+<summary>
+  Looks up a localized string similar to Name (In Hindi).
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblNo">
+<summary>
+  Looks up a localized string similar to No.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblOther">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblPanchayat">
+<summary>
+  Looks up a localized string similar to Gram Panchayat.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblPanchSamiti">
+<summary>
+  Looks up a localized string similar to Panchayat Samiti.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblPollStation">
+<summary>
+  Looks up a localized string similar to Polling Station.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblPollTotal">
+<summary>
+  Looks up a localized string similar to % Polled/Total- .
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblPradhan">
+<summary>
+  Looks up a localized string similar to Pradhan.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblPSWard">
+<summary>
+  Looks up a localized string similar to Panchayat Samiti Ward.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblState">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblStateName">
+<summary>
+  Looks up a localized string similar to Himachal Pradesh.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblULB">
+<summary>
+  Looks up a localized string similar to Urban Local Body.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblUpPradhan">
+<summary>
+  Looks up a localized string similar to Up Pradhan.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblWard">
+<summary>
+  Looks up a localized string similar to Ward.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblWmGp">
+<summary>
+  Looks up a localized string similar to Panchayat Ward Member.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblWmMc">
+<summary>
+  Looks up a localized string similar to MC Ward Member.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblWmUlb">
+<summary>
+  Looks up a localized string similar to ULB Ward Member.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblYes">
+<summary>
+  Looks up a localized string similar to Yes.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblZilaParishad">
+<summary>
+  Looks up a localized string similar to Zila Parishad.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lblZPWard">
+<summary>
+  Looks up a localized string similar to Zila Parishad Ward.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lnkAdd">
+<summary>
+  Looks up a localized string similar to Add New.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lnkDelete">
+<summary>
+  Looks up a localized string similar to Delete.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lnkEdit">
+<summary>
+  Looks up a localized string similar to Edit.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.lnkQR">
+<summary>
+  Looks up a localized string similar to QR Code.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Mar">
+<summary>
+  Looks up a localized string similar to March.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Mar1">
+<summary>
+  Looks up a localized string similar to 3.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.May">
+<summary>
+  Looks up a localized string similar to May.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.May1">
+<summary>
+  Looks up a localized string similar to 5.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Mc">
+<summary>
+  Looks up a localized string similar to Municipal Corporation.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuAddBallot">
+<summary>
+  Looks up a localized string similar to My Ballot Boxes.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuAddEVM">
+<summary>
+  Looks up a localized string similar to Add EVM.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuAddStationary">
+<summary>
+  Looks up a localized string similar to Add Items.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuAddStore">
+<summary>
+  Looks up a localized string similar to Add EVM Warehouse.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuAllocateEVM">
+<summary>
+  Looks up a localized string similar to Allocate EVM Unit.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuAllocateStationery">
+<summary>
+  Looks up a localized string similar to Allocate.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuApplicationManagement">
+<summary>
+  Looks up a localized string similar to Application Management.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuBallotBoxAllocation">
+<summary>
+  Looks up a localized string similar to Allocate.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuBallotBoxDashboard">
+<summary>
+  Looks up a localized string similar to Ballot Box Dashboard.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuBallotHeader">
+<summary>
+  Looks up a localized string similar to Ballot Box.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuBBSummary">
+<summary>
+  Looks up a localized string similar to Unit Summary.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuBBUnitList">
+<summary>
+  Looks up a localized string similar to Unit List.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuBlockMaster">
+<summary>
+  Looks up a localized string similar to Block Master.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuChangePassword">
+<summary>
+  Looks up a localized string similar to Change Password.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuClose">
+<summary>
+  Looks up a localized string similar to Exit.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuConsumedStationery">
+<summary>
+  Looks up a localized string similar to Update Consumption.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuDashboard">
+<summary>
+  Looks up a localized string similar to Dashboard.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuDataEntry">
+<summary>
+  Looks up a localized string similar to Data Management.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuDataEntryStatus">
+<summary>
+  Looks up a localized string similar to Data Entry Status.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuDisposeStationery">
+<summary>
+  Looks up a localized string similar to Mark Disposed.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuDistrictMaster">
+<summary>
+  Looks up a localized string similar to District Master.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuEVMAllocation">
+<summary>
+  Looks up a localized string similar to Allocate EVM Units.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuEVMHeader">
+<summary>
+  Looks up a localized string similar to EVM.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuEVMList">
+<summary>
+  Looks up a localized string similar to EVM Unit List.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuEVMSummary">
+<summary>
+  Looks up a localized string similar to EVM Unit Wise Summary.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuGenerateQR">
+<summary>
+  Looks up a localized string similar to Generate QR Code.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuHome">
+<summary>
+  Looks up a localized string similar to Home.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuLogin">
+<summary>
+  Looks up a localized string similar to Log In.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuLogout">
+<summary>
+  Looks up a localized string similar to Logout.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuMobileApp">
+<summary>
+  Looks up a localized string similar to EVM Tracking Mobile App.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuMyProfile">
+<summary>
+  Looks up a localized string similar to My Profile.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuNomination">
+<summary>
+  Looks up a localized string similar to Nomination.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuNomSummaryMc">
+<summary>
+  Looks up a localized string similar to Nagar Nigam.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuNomSummaryUlb">
+<summary>
+  Looks up a localized string similar to Nagar Panchayat.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuPanWardMaster">
+<summary>
+  Looks up a localized string similar to Panchayat Ward Master.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuPollResultsGp">
+<summary>
+  Looks up a localized string similar to Gram Panchayat.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuPollResultsPs">
+<summary>
+  Looks up a localized string similar to Panchayat Samiti.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuPollResultsZp">
+<summary>
+  Looks up a localized string similar to Zila Parishad.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuPrintQR">
+<summary>
+  Looks up a localized string similar to Print QR Code.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuReports">
+<summary>
+  Looks up a localized string similar to Reports.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuRepresentatives">
+<summary>
+  Looks up a localized string similar to Elected Representatives.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuReservationStatus">
+<summary>
+  Looks up a localized string similar to Reservation Status.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuReservationStatusGP">
+<summary>
+  Looks up a localized string similar to Gram Panchayat/ULBs.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuReservationStatusMC">
+<summary>
+  Looks up a localized string similar to MC Wards Reservation.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuReservationStatusZPPS">
+<summary>
+  Looks up a localized string similar to Zila Parishad/Panchayat Samiti.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuRural">
+<summary>
+  Looks up a localized string similar to Rural.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuStationaryHeader">
+<summary>
+  Looks up a localized string similar to Stock and stationery.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuStationaryStockSummary">
+<summary>
+  Looks up a localized string similar to Summary.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuUlbWardRes">
+<summary>
+  Looks up a localized string similar to ULB Wards Reservation.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuUpdateFLC">
+<summary>
+  Looks up a localized string similar to Update FLC Details.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuUpdateStationeryStock">
+<summary>
+  Looks up a localized string similar to Update.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuUpdateStock">
+<summary>
+  Looks up a localized string similar to Add / Modify Items.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuUrban">
+<summary>
+  Looks up a localized string similar to Urban.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuViewFLC">
+<summary>
+  Looks up a localized string similar to View FLC Details.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.menuViewWarehouse">
+<summary>
+  Looks up a localized string similar to View Warehouse.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.noOfPollStations">
+<summary>
+  Looks up a localized string similar to No. Of Polling Stations.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.noOfWards">
+<summary>
+  Looks up a localized string similar to No. Of Wards.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Nov">
+<summary>
+  Looks up a localized string similar to November.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Nov1">
+<summary>
+  Looks up a localized string similar to 11.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Oct">
+<summary>
+  Looks up a localized string similar to October.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Oct1">
+<summary>
+  Looks up a localized string similar to 10.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ofBlk">
+<summary>
+  Looks up a localized string similar to Panchayat Samiti:.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ofDis">
+<summary>
+  Looks up a localized string similar to Zila:.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ofMC">
+<summary>
+  Looks up a localized string similar to MC:.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ofPanch">
+<summary>
+  Looks up a localized string similar to Gram Panchayat:.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ofULB">
+<summary>
+  Looks up a localized string similar to ULB:.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ofZPWard">
+<summary>
+  Looks up a localized string similar to ZP Ward:.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.PageResource1">
+<summary>
+  Looks up a localized string similar to Inventory MIS State Election Commission, Himachal Pradesh.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.PollDay">
+<summary>
+  Looks up a localized string similar to Poll Date.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.PriTerm">
+<summary>
+  Looks up a localized string similar to PRI Term.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ReActivateStockMaster">
+<summary>
+  Looks up a localized string similar to Re-Activate.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.RelatedLinks">
+<summary>
+  Looks up a localized string similar to Related Links.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.SEC">
+<summary>
+  Looks up a localized string similar to State Election Commission, Himachal Pradesh.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.SECHP">
+<summary>
+  Looks up a localized string similar to State Election Commission HP.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Sel">
+<summary>
+  Looks up a localized string similar to -Select-.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Sel1">
+<summary>
+  Looks up a localized string similar to 0.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Sep">
+<summary>
+  Looks up a localized string similar to September.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Sep1">
+<summary>
+  Looks up a localized string similar to 9.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.txtVDMS">
+<summary>
+  Looks up a localized string similar to Voting Day Monitoring System Mobile App.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Ulb">
+<summary>
+  Looks up a localized string similar to Urban Local Body.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.UpdateStockMaster">
+<summary>
+  Looks up a localized string similar to Update.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.userRole">
+<summary>
+  Looks up a localized string similar to User Role:.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.VDMS">
+<summary>
+  Looks up a localized string similar to Voting Day Monitoring System.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.ViewAnnexure">
+<summary>
+  Looks up a localized string similar to View Annexure-I.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.Warehouse">
+<summary>
+  Looks up a localized string similar to Warehouse .
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.WarehouseLocationNotFound">
+<summary>
+  Looks up a localized string similar to Warehouse Location Not Found.
+</summary>
+</member>
+<member name="P:SEC_InventoryMgmt.Resources.Resource.welcome">
+<summary>
+  Looks up a localized string similar to Welcome.
+</summary>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._up1">
+<summary>
+up1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._dvOldPwd">
+<summary>
+dvOldPwd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._txtOldPassword">
+<summary>
+txtOldPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._txtNewPassword">
+<summary>
+txtNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._txtConfPassword">
+<summary>
+txtConfPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._alert_div">
+<summary>
+alert_div control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._lbl_alert">
+<summary>
+lbl_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._btnChangePass">
+<summary>
+btnChangePass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.changePassword._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._txtFlcID">
+<summary>
+txtFlcID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._txtFlcdate">
+<summary>
+txtFlcdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._txtHallName">
+<summary>
+txtHallName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._txtHallNameL">
+<summary>
+txtHallNameL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._txtHallAddress">
+<summary>
+txtHallAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._RegularExpressionValidator2">
+<summary>
+RegularExpressionValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._txtHallAddressL">
+<summary>
+txtHallAddressL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.listFLC._btnExport">
+<summary>
+btnExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._ddlFLC">
+<summary>
+ddlFLC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._dvEVM">
+<summary>
+dvEVM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._txtUnitID">
+<summary>
+txtUnitID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._txtUnitSeries">
+<summary>
+txtUnitSeries control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._txtUnitSrNo">
+<summary>
+txtUnitSrNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._ddlOperationStatus">
+<summary>
+ddlOperationStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._txtRemark">
+<summary>
+txtRemark control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._ddlForTraining">
+<summary>
+ddlForTraining control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._save_button">
+<summary>
+save_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._cancel_button1">
+<summary>
+cancel_button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.updateFLCDetails._btnExport">
+<summary>
+btnExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._rptMarkers">
+<summary>
+rptMarkers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._btnShow">
+<summary>
+btnShow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewLocation._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBBonMap._close">
+<summary>
+close control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._hdnLangCode">
+<summary>
+hdnLangCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._view_button">
+<summary>
+view_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._btnExport">
+<summary>
+btnExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewWarehouse._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewOnMap._rptMarkers">
+<summary>
+rptMarkers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewOnMap._close">
+<summary>
+close control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EvmOnMap._rptMarkers">
+<summary>
+rptMarkers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EvmOnMap._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.EvmOnMap._btnGetData">
+<summary>
+btnGetData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._Dashboard">
+<summary>
+Dashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._CntEvm">
+<summary>
+CntEvm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._EVM">
+<summary>
+EVM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._CntBB">
+<summary>
+CntBB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._BallotBox">
+<summary>
+BallotBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._CntVvpat">
+<summary>
+CntVvpat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._VVPAT">
+<summary>
+VVPAT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._CntStnry">
+<summary>
+CntStnry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._StationaryItems">
+<summary>
+StationaryItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._CntForms">
+<summary>
+CntForms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._Forms">
+<summary>
+Forms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblEvmUnits">
+<summary>
+lblEvmUnits control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblEvmUnitsdesc">
+<summary>
+lblEvmUnitsdesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblControlUnits">
+<summary>
+lblControlUnits control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblCu">
+<summary>
+lblCu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblBallotUnits">
+<summary>
+lblBallotUnits control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblBU">
+<summary>
+lblBU control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblVVPatUnits">
+<summary>
+lblVVPatUnits control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblVvpat">
+<summary>
+lblVvpat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblBallotBoxes">
+<summary>
+lblBallotBoxes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblBB">
+<summary>
+lblBB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblBallotBoxesDesc">
+<summary>
+lblBallotBoxesDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStationeryItems">
+<summary>
+lblStationeryItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStnry">
+<summary>
+lblStnry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStationeryItemsDesc">
+<summary>
+lblStationeryItemsDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStationeryItems1">
+<summary>
+lblStationeryItems1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStationeryItems2">
+<summary>
+lblStationeryItems2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStationeryItems3">
+<summary>
+lblStationeryItems3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStationeryItems4">
+<summary>
+lblStationeryItems4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStationeryItems5">
+<summary>
+lblStationeryItems5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStationeryItems6">
+<summary>
+lblStationeryItems6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblStationeryItems7">
+<summary>
+lblStationeryItems7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblBallotBoxes1">
+<summary>
+lblBallotBoxes1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblFormsPRI">
+<summary>
+lblFormsPRI control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblFormPRI">
+<summary>
+lblFormPRI control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblFormsPRIDesc">
+<summary>
+lblFormsPRIDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblFormsUlb1">
+<summary>
+lblFormsUlb1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblFormULB">
+<summary>
+lblFormULB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblFormsUlb1Desc">
+<summary>
+lblFormsUlb1Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblFormsUlb2">
+<summary>
+lblFormsUlb2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblFormMC">
+<summary>
+lblFormMC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblFormsUlb2Desc">
+<summary>
+lblFormsUlb2Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.index._lblModTitle">
+<summary>
+lblModTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._ddllang">
+<summary>
+ddllang control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._loginform">
+<summary>
+loginform control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._lblheader">
+<summary>
+lblheader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._sm1">
+<summary>
+sm1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._up1">
+<summary>
+up1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._txtUserID">
+<summary>
+txtUserID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._rfvUserName">
+<summary>
+rfvUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._txtUserPass">
+<summary>
+txtUserPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._rfvUserPassword">
+<summary>
+rfvUserPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._upCaptcha">
+<summary>
+upCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._SearchCaptcha">
+<summary>
+SearchCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._txtCaptcha">
+<summary>
+txtCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._BtbchangeCaptcha">
+<summary>
+BtbchangeCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._lblMsg">
+<summary>
+lblMsg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._hidHash">
+<summary>
+hidHash control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._recoverform">
+<summary>
+recoverform control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._upRecoverForm">
+<summary>
+upRecoverForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._lblRecoverPwd">
+<summary>
+lblRecoverPwd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._dvFP">
+<summary>
+dvFP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._txtID">
+<summary>
+txtID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._lbl_msg">
+<summary>
+lbl_msg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._dvOtpBtns">
+<summary>
+dvOtpBtns control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._btnSendOTP">
+<summary>
+btnSendOTP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._dvOTP">
+<summary>
+dvOTP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._txtOTP">
+<summary>
+txtOTP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._btnResendOTP">
+<summary>
+btnResendOTP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._lbl_otp">
+<summary>
+lbl_otp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.login._btnConfirmOTP">
+<summary>
+btnConfirmOTP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.logout1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printForm._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printForm._printgrid">
+<summary>
+printgrid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printForm._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printForm._liheader">
+<summary>
+liheader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printForm._litable">
+<summary>
+litable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printForm._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printForm._btnPrint">
+<summary>
+btnPrint control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._lblWhName">
+<summary>
+lblWhName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._lblWhAddress">
+<summary>
+lblWhAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._btnMap">
+<summary>
+btnMap control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._dvBBType">
+<summary>
+dvBBType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._rbMakeType">
+<summary>
+rbMakeType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._lblList">
+<summary>
+lblList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._lblCounts">
+<summary>
+lblCounts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._lblHelptext">
+<summary>
+lblHelptext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._view_button">
+<summary>
+view_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.generateQR._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._lblDistName">
+<summary>
+lblDistName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._ddlDistName">
+<summary>
+ddlDistName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._lblWareHouse">
+<summary>
+lblWareHouse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._ddlWareHouse">
+<summary>
+ddlWareHouse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._btnMap">
+<summary>
+btnMap control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._rbUnitType">
+<summary>
+rbUnitType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._view_on_map">
+<summary>
+view_on_map control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._view_button">
+<summary>
+view_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._btnSrId">
+<summary>
+btnSrId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._btnExport">
+<summary>
+btnExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.printQR._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.Site._litTitle">
+<summary>
+litTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.Site._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.Site._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.Site._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.Site._ddllang">
+<summary>
+ddllang control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.Site._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.Site._lblRole">
+<summary>
+lblRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.Site._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.Site._footer">
+<summary>
+footer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._hdnLangCode">
+<summary>
+hdnLangCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._btnExport">
+<summary>
+btnExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewBallotBox._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._hdnLangCode">
+<summary>
+hdnLangCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._panel1">
+<summary>
+panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._dvList">
+<summary>
+dvList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._existing_grid">
+<summary>
+existing_grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._lbl_error">
+<summary>
+lbl_error control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._uprog1">
+<summary>
+uprog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._btnExport">
+<summary>
+btnExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SEC_InventoryMgmt.viewEVM._cancel_button">
+<summary>
+cancel_button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

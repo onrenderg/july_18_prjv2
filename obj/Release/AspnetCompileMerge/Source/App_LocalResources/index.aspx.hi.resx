@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BallotBoxResource1.Text" xml:space="preserve">
+    <value>मतपेटी</value>
+  </data>
+  <data name="BallotBoxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DashboardResource1.Text" xml:space="preserve">
+    <value>डैशबोर्ड</value>
+  </data>
+  <data name="DashboardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EVMResource1.Text" xml:space="preserve">
+    <value>ईवीएम</value>
+  </data>
+  <data name="EVMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormsResource1.Text" xml:space="preserve">
+    <value>फार्म</value>
+  </data>
+  <data name="FormsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBallotBoxes.Text" xml:space="preserve">
+    <value>मतपेटी</value>
+  </data>
+  <data name="lblBallotBoxesDesc.Text" xml:space="preserve">
+    <value>एक मतपेटी एक अस्थायी रूप से मुहरबंद कंटेनर है, आमतौर पर एक स्क्वायर बॉक्स हालांकि कभी-कभी एक छेड़छाड़ प्रतिरोधी बैग होता है, जो चुनाव में मतपत्र को स्वीकार करने के लिए पर्याप्त रूप से शीर्ष पर एक संकीर्ण स्लॉट के साथ होता है जो किसी को भी मतदान अवधि के अंत तक डाले गए वोटों तक पहुंचने से रोकता है। .</value>
+  </data>
+  <data name="lblBallotUnits.Text" xml:space="preserve">
+    <value>बैलट इकाई</value>
+  </data>
+  <data name="lblControlUnits.Text" xml:space="preserve">
+    <value>नियंत्रण इकाई</value>
+  </data>
+  <data name="lblEvmUnits.Text" xml:space="preserve">
+    <value>ईवीएम इकाइयाँ</value>
+  </data>
+  <data name="lblEvmUnitsDesc.Text" xml:space="preserve">
+    <value>इलेक्ट्रॉनिक वोटिंग भारत में इलेक्ट्रॉनिक वोटिंग मशीनों (ईवीएम) का उपयोग करके चुनाव आयोजित करने का मानक साधन है। इस प्रणाली को 1990 के दशक में राज्य के स्वामित्व वाले इलेक्ट्रॉनिक्स कॉर्पोरेशन ऑफ इंडिया और भारत इलेक्ट्रॉनिक्स द्वारा विकसित और परीक्षण किया गया था। उन्हें 1998 और 2001 के बीच भारतीय चुनावों में चरणबद्ध तरीके से पेश किया गया था।</value>
+  </data>
+  <data name="lblFormsPRI.Text" xml:space="preserve">
+    <value>प्रपत्र: पंचायती राज</value>
+  </data>
+  <data name="lblFormsPRIDesc.Text" xml:space="preserve">
+    <value>पंचायती राज संस्थाओं के चुनाव में प्रयुक्त विभिन्न प्रपत्र।</value>
+  </data>
+  <data name="lblFormsUlb1.text" xml:space="preserve">
+    <value>प्रपत्र: नगरपालिकाओं के लिए</value>
+  </data>
+  <data name="lblFormsUlb1Desc.text" xml:space="preserve">
+    <value>नगर पालिका के चुनाव में उपयोग किए जाने वाले विभिन्न प्रपत्र।</value>
+  </data>
+  <data name="lblFormsUlb2.text" xml:space="preserve">
+    <value>प्रपत्र: नगर निगम</value>
+  </data>
+  <data name="lblFormsUlb2Desc.text" xml:space="preserve">
+    <value>नगर निगमों के चुनाव में उपयोग किए जाने वाले विभिन्न प्रपत्र।</value>
+  </data>
+  <data name="lblStationeryItems.Text" xml:space="preserve">
+    <value>स्टेशनरी का सामान</value>
+  </data>
+  <data name="lblStationeryItems1.Text" xml:space="preserve">
+    <value>लेखन सामग्री</value>
+  </data>
+  <data name="lblStationeryItems2.Text" xml:space="preserve">
+    <value>लिफाफा (लिफाफे पर मुद्रित की जाने वाली सामग्री)</value>
+  </data>
+  <data name="lblStationeryItems3.Text" xml:space="preserve">
+    <value>साइन बोर्ड</value>
+  </data>
+  <data name="lblStationeryItems4.Text" xml:space="preserve">
+    <value>एड्रेस टैग्स</value>
+  </data>
+  <data name="lblStationeryItems5.Text" xml:space="preserve">
+    <value>पोस्टर प्रतीक</value>
+  </data>
+  <data name="lblStationeryItems6.Text" xml:space="preserve">
+    <value>मतपत्र</value>
+  </data>
+  <data name="lblStationeryItems7.Text" xml:space="preserve">
+    <value>विविध लेखन सामग्री</value>
+  </data>
+  <data name="lblStationeryItemsDesc.Text" xml:space="preserve">
+    <value>राज्य चुनाव आयोग, हिमाचल प्रदेश द्वारा उपयोग किए जाने वाले चुनावों से संबंधित विभिन्न स्टेशनरी आइटम सूचीबद्ध हैं</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>डैशबोर्ड</value>
+  </data>
+  <data name="lblVVPatUnits.Text" xml:space="preserve">
+    <value>वीवीपैट</value>
+  </data>
+  <data name="StationaryItemsResource1.Text" xml:space="preserve">
+    <value>स्टेशनरी</value>
+  </data>
+  <data name="StationaryItemsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VVPATResource1.Text" xml:space="preserve">
+    <value>वीवीपैट</value>
+  </data>
+  <data name="VVPATResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

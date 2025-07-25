@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>इन्वेंटरी मैनेजमेंट इन्फॉर्मेशन सिस्टम</value>
+  </data>
+  <data name="BackToLogin" xml:space="preserve">
+    <value>लॉगिन पर वापस जाएं</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>सत्यापन के लिए प्रस्तुत करें</value>
+  </data>
+  <data name="btnVerify" xml:space="preserve">
+    <value>सत्यापित करें</value>
+  </data>
+  <data name="ContactAddress" xml:space="preserve">
+    <value>आर्म्सडेल बिल्डिंग, हिमाचल प्रदेश सचिवालय, छोटा शिमला (हि.प्र.) - 171002</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>secysec-hp[at]nic[dot]in</value>
+  </data>
+  <data name="ContactFax" xml:space="preserve">
+    <value>(फैक्स)  : 2620152</value>
+  </data>
+  <data name="ContactPhone" xml:space="preserve">
+    <value>(कार्यालय): 0177-2620152</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>सम्पर्क </value>
+  </data>
+  <data name="Disclaimer" xml:space="preserve">
+    <value>अस्वीकरण</value>
+  </data>
+  <data name="DisclaimerText" xml:space="preserve">
+    <value>वेब एप्लिकेशन, इन्वेंटरी मैनेजमेंट इन्फॉर्मेशन सिस्टम एनआईसी हिमाचल प्रदेश राज्य केंद्र, शिमला द्वारा राज्य निर्वाचन आयोग, हिमाचल प्रदेश के लिए विकसित किया गया है। किसी भी प्रश्न / स्पष्टीकरण के लिए, कृपया अपने जिले के संबंधित जिला पंचायत अधिकारी से संपर्क करें। राज्य चुनाव आयुक्त के हस्तक्षेप की आवश्यकता वाली कोई भी शिकायत/सवाल संबंधित उपायुक्त के माध्यम से दर्ज कराई जा सकती है।</value>
+  </data>
+  <data name="ForgetPasswordResource" xml:space="preserve">
+    <value>पासवर्ड भूल गए?</value>
+  </data>
+  <data name="ForgetPasswordTitle" xml:space="preserve">
+    <value>पासवर्ड रीसेट करने के लिए अपना यूजर आईडी दर्ज करें</value>
+  </data>
+  <data name="GoText" xml:space="preserve">
+    <value>आगे बढ़ें</value>
+  </data>
+  <data name="lblFemale" xml:space="preserve">
+    <value>महिला</value>
+  </data>
+  <data name="lblHq" xml:space="preserve">
+    <value>मुख्यालय</value>
+  </data>
+  <data name="lblMale" xml:space="preserve">
+    <value>पुरुष</value>
+  </data>
+  <data name="lblNameEn" xml:space="preserve">
+    <value>नाम (अंग्रेज़ी में)</value>
+  </data>
+  <data name="lblNameHi" xml:space="preserve">
+    <value>नाम (हिन्दी में)</value>
+  </data>
+  <data name="lblOther" xml:space="preserve">
+    <value>अन्य</value>
+  </data>
+  <data name="lblPanchayat" xml:space="preserve">
+    <value>ग्राम पंचायत</value>
+  </data>
+  <data name="lblPanchSamiti" xml:space="preserve">
+    <value>पंचायत समिति</value>
+  </data>
+  <data name="lblStateName" xml:space="preserve">
+    <value>हिमाचल प्रदेश</value>
+  </data>
+  <data name="lblWard" xml:space="preserve">
+    <value>वार्ड</value>
+  </data>
+  <data name="lblZilaParishad" xml:space="preserve">
+    <value>जिला परिषद</value>
+  </data>
+  <data name="lnkDelete" xml:space="preserve">
+    <value>रिकॉर्ड हटाएं</value>
+  </data>
+  <data name="lnkEdit" xml:space="preserve">
+    <value>संपादित करें</value>
+  </data>
+  <data name="lblMC" xml:space="preserve">
+    <value>नगर निगम</value>
+  </data>
+  <data name="lblULB" xml:space="preserve">
+    <value>शहरी स्थानीय निकाय</value>
+  </data>
+  <data name="lblNA" xml:space="preserve">
+    <value>नहीं मिला</value>
+  </data>
+  <data name="lblState" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="menuChangePassword" xml:space="preserve">
+    <value>पासवर्ड बदलें</value>
+  </data>
+  <data name="menuDashboard" xml:space="preserve">
+    <value>प्रबंधन पटल</value>
+  </data>
+  <data name="menuLogout" xml:space="preserve">
+    <value>लॉगआउट</value>
+  </data>
+  <data name="menuMyProfile" xml:space="preserve">
+    <value>मेरी प्रोफाइल</value>
+  </data>
+  <data name="menuApplicationManagement" xml:space="preserve">
+    <value>एप्लिकेशन प्रबंधन</value>
+  </data>
+  <data name="menuBlockMaster" xml:space="preserve">
+    <value>ब्लॉक मास्टर</value>
+  </data>
+  <data name="menuDataEntry" xml:space="preserve">
+    <value>डाटा प्रबंधन</value>
+  </data>
+  <data name="menuReservationStatus" xml:space="preserve">
+    <value>वार्ड आरक्षण की स्थिति</value>
+  </data>
+  <data name="AboutApplication" xml:space="preserve">
+    <value>इन्वेंटरी मैनेजमेंट इन्फॉर्मेशन सिस्टम</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>हमारे बारे में</value>
+  </data>
+  <data name="RelatedLinks" xml:space="preserve">
+    <value>सम्बन्धित लिंक</value>
+  </data>
+  <data name="SEC" xml:space="preserve">
+    <value>राज्य निर्वाचन आयोग, हिमाचल प्रदेश</value>
+  </data>
+  <data name="HP" xml:space="preserve">
+    <value>हिमाचल प्रदेश</value>
+  </data>
+  <data name="ConfirmOTP" xml:space="preserve">
+    <value>ओ टी पी की पुष्टि करें</value>
+  </data>
+  <data name="ECI_Search" xml:space="preserve">
+    <value>राष्ट्रीय मतदाता सेवा पोर्टल</value>
+  </data>
+  <data name="ECI" xml:space="preserve">
+    <value>भारत निर्वाचन आयोग</value>
+  </data>
+  <data name="hpgovt" xml:space="preserve">
+    <value>हिमाचल प्रदेश सरकार, भारत</value>
+  </data>
+  <data name="lblNo" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="lblYes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="menuReports" xml:space="preserve">
+    <value>रिपोर्ट्स</value>
+  </data>
+  <data name="userRole" xml:space="preserve">
+    <value>उपयोगकर्ता भूमिका:</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>अभिवादन</value>
+  </data>
+  <data name="ofBlk" xml:space="preserve">
+    <value>पंचायत समिति:</value>
+  </data>
+  <data name="ofDis" xml:space="preserve">
+    <value>जिला:</value>
+  </data>
+  <data name="ofMC" xml:space="preserve">
+    <value>नगर निगम:</value>
+  </data>
+  <data name="ofPanch" xml:space="preserve">
+    <value>पंचायत:</value>
+  </data>
+  <data name="ofULB" xml:space="preserve">
+    <value>शहरी स्थानीय निकाय:</value>
+  </data>
+  <data name="ofZPWard" xml:space="preserve">
+    <value>जिला परिषद वार्ड:</value>
+  </data>
+  <data name="SECHP" xml:space="preserve">
+    <value>राज्य निर्वाचन आयोग हि.प्र.</value>
+  </data>
+  <data name="lnkAdd" xml:space="preserve">
+    <value>नया जोड़ें</value>
+  </data>
+  <data name="menuReservationStatusGP" xml:space="preserve">
+    <value>ग्राम पंचायत / यू.एल.बी</value>
+  </data>
+  <data name="menuReservationStatusZPPS" xml:space="preserve">
+    <value>जिला परिषद / पंचायत समिति</value>
+  </data>
+  <data name="lblMCWard" xml:space="preserve">
+    <value>नगर निगम वार्ड</value>
+  </data>
+  <data name="lblPollStation" xml:space="preserve">
+    <value>मतदान केंद्र</value>
+  </data>
+  <data name="lblPSWard" xml:space="preserve">
+    <value>पंचायत समिति वार्ड</value>
+  </data>
+  <data name="lblZPWard" xml:space="preserve">
+    <value>जिला परिषद वार्ड</value>
+  </data>
+  <data name="ViewAnnexure" xml:space="preserve">
+    <value>अनुबन्ध-I देखें</value>
+  </data>
+  <data name="Blk" xml:space="preserve">
+    <value>पंचायत समिति</value>
+  </data>
+  <data name="Dis" xml:space="preserve">
+    <value>जिला</value>
+  </data>
+  <data name="Mc" xml:space="preserve">
+    <value>नगर निगम</value>
+  </data>
+  <data name="Ulb" xml:space="preserve">
+    <value>शहरी स्थानीय निकाय</value>
+  </data>
+  <data name="menuLogin" xml:space="preserve">
+    <value>लॉग इन</value>
+  </data>
+  <data name="menuClose" xml:space="preserve">
+    <value>बाहर जाएं</value>
+  </data>
+  <data name="menuRural" xml:space="preserve">
+    <value>ग्रामीण</value>
+  </data>
+  <data name="menuUrban" xml:space="preserve">
+    <value>शहरी</value>
+  </data>
+  <data name="PollDay" xml:space="preserve">
+    <value>मतदान की तारीख</value>
+  </data>
+  <data name="menuPollResultsPs" xml:space="preserve">
+    <value>पंचायत समिति</value>
+  </data>
+  <data name="menuPollResultsZp" xml:space="preserve">
+    <value>जिला परिषद</value>
+  </data>
+  <data name="menuPollResultsGp" xml:space="preserve">
+    <value>ग्राम पंचायत</value>
+  </data>
+  <data name="menuHome" xml:space="preserve">
+    <value>मुख्य पृष्ठ</value>
+  </data>
+  <data name="menuRepresentatives" xml:space="preserve">
+    <value>निर्वाचित प्रतिनिधि</value>
+  </data>
+  <data name="menuNomSummaryMc" xml:space="preserve">
+    <value>नगर निगम</value>
+  </data>
+  <data name="menuNomSummaryUlb" xml:space="preserve">
+    <value>नगर पंचायत</value>
+  </data>
+  <data name="menuReservationStatusMC" xml:space="preserve">
+    <value>नगर निगम वार्ड आरक्षण</value>
+  </data>
+  <data name="noOfWards" xml:space="preserve">
+    <value>वार्डों की संख्या</value>
+  </data>
+  <data name="noOfPollStations" xml:space="preserve">
+    <value>मतदान केंद्रों की संख्या</value>
+  </data>
+  <data name="lblPradhan" xml:space="preserve">
+    <value>प्रधान</value>
+  </data>
+  <data name="lblUpPradhan" xml:space="preserve">
+    <value>उप-प्रधान </value>
+  </data>
+  <data name="lblWmGp" xml:space="preserve">
+    <value>पंचायत वार्ड सदस्य</value>
+  </data>
+  <data name="lblWmMc" xml:space="preserve">
+    <value>एम.सी. वार्ड सदस्य</value>
+  </data>
+  <data name="lblWmUlb" xml:space="preserve">
+    <value>यू.एल.बी.  वार्ड सदस्य</value>
+  </data>
+  <data name="menuAddBallot" xml:space="preserve">
+    <value>मेरी मतपेटियाँ</value>
+  </data>
+  <data name="menuAddEVM" xml:space="preserve">
+    <value>नया ईवीएम जोड़ें</value>
+  </data>
+  <data name="menuAddStationary" xml:space="preserve">
+    <value>नया स्टेशनरी आइटम जोड़ें</value>
+  </data>
+  <data name="lblListEVM" xml:space="preserve">
+    <value>ईवीएम की सूची</value>
+  </data>
+  <data name="Apr" xml:space="preserve">
+    <value>अप्रैल</value>
+  </data>
+  <data name="Apr1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Aug" xml:space="preserve">
+    <value>अगस्त</value>
+  </data>
+  <data name="Aug1" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Dec" xml:space="preserve">
+    <value>दिसम्बर </value>
+  </data>
+  <data name="Dec1" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>फरवरी</value>
+  </data>
+  <data name="Feb1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Jan" xml:space="preserve">
+    <value>जनवरी </value>
+  </data>
+  <data name="Jan1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>जुलाई</value>
+  </data>
+  <data name="Jul1" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>जून</value>
+  </data>
+  <data name="Jun1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>मार्च</value>
+  </data>
+  <data name="Mar1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>मई</value>
+  </data>
+  <data name="May1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>नवम्बर</value>
+  </data>
+  <data name="Nov1" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>अक्टूबर</value>
+  </data>
+  <data name="Oct1" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Sel" xml:space="preserve">
+    <value>-चुनें-</value>
+  </data>
+  <data name="Sel1" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>सितम्बर</value>
+  </data>
+  <data name="Sep1" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="menuAddStore" xml:space="preserve">
+    <value>नया ईवीएम गोदाम जोड़ें</value>
+  </data>
+  <data name="lblListBallotBox" xml:space="preserve">
+    <value>मतपेटियों की सूची</value>
+  </data>
+  <data name="lnkQR" xml:space="preserve">
+    <value>क्यूआर कोड</value>
+  </data>
+  <data name="lblListStationary" xml:space="preserve">
+    <value>आइटम की सूची</value>
+  </data>
+  <data name="menuBallotBoxAllocation" xml:space="preserve">
+    <value>आवंटन करें</value>
+  </data>
+  <data name="menuEVMAllocation" xml:space="preserve">
+    <value>ईवीएम इकाइयों का आवंटन</value>
+  </data>
+  <data name="menuEVMSummary" xml:space="preserve">
+    <value>ईवीएम इकाई वार सारांश</value>
+  </data>
+  <data name="menuPrintQR" xml:space="preserve">
+    <value>क्यूआर कोड प्रिंट करें</value>
+  </data>
+  <data name="ERMS" xml:space="preserve">
+    <value>इलेक्टोरल रोल मैनेजमेंट सिस्टम</value>
+  </data>
+  <data name="ERMS_Search" xml:space="preserve">
+    <value>मतदाता सूची देखें व खोजें</value>
+  </data>
+  <data name="txtVDMS" xml:space="preserve">
+    <value>Voting Day Monitoring System Mobile App</value>
+  </data>
+  <data name="VDMS" xml:space="preserve">
+    <value>Voting Day Monitoring System</value>
+  </data>
+  <data name="menuAllocateEVM" xml:space="preserve">
+    <value>ईवीएम आवंटन</value>
+  </data>
+  <data name="menuAllocateStationery" xml:space="preserve">
+    <value>आवंटन करें</value>
+  </data>
+  <data name="menuGenerateQR" xml:space="preserve">
+    <value>क्यूआर कोड बनाएँ </value>
+  </data>
+  <data name="lblListEVMPendingQR" xml:space="preserve">
+    <value>क्यूआर कोड जनरेशन के लिए लंबित इकाइयों की सूची</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>गोदाम</value>
+  </data>
+  <data name="menuBBSummary" xml:space="preserve">
+    <value>यूनिट सारांश</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>डाउनलोड करें</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>एक्सेल के रूप में डाउनलोड करें</value>
+  </data>
+  <data name="lblListBU" xml:space="preserve">
+    <value>ईवीएम बैलट इकाइयों की सूची</value>
+  </data>
+  <data name="lblListCU" xml:space="preserve">
+    <value>ईवीएम कंट्रोल इकाइयों की सूची</value>
+  </data>
+  <data name="WarehouseLocationNotFound" xml:space="preserve">
+    <value>गोदाम का भौगोलिक स्थान नहीं मिला</value>
+  </data>
+  <data name="menuViewWarehouse" xml:space="preserve">
+    <value>गोदाम देखें</value>
+  </data>
+  <data name="menuMobileApp" xml:space="preserve">
+    <value>ईवीएम / बैलेट बॉक्स ट्रैकिंग ऐप</value>
+  </data>
+  <data name="lblListFLC" xml:space="preserve">
+    <value>जिले में ईवीएम एफएलसी (फर्स्ट लेवल चेक) की सूची</value>
+  </data>
+  <data name="menuUpdateFLC" xml:space="preserve">
+    <value>एफएलसी विवरण अपडेट करें</value>
+  </data>
+  <data name="menuViewFLC" xml:space="preserve">
+    <value>एफएलसी विवरण देखें</value>
+  </data>
+  <data name="menuUpdateStationeryStock" xml:space="preserve">
+    <value>अपडेट करें</value>
+  </data>
+  <data name="menuUpdateStock" xml:space="preserve">
+    <value>जोड़ें / संशोधित करें</value>
+  </data>
+  <data name="BallotBox" xml:space="preserve">
+    <value>बैलट बॉक्स</value>
+  </data>
+  <data name="BallotUnit" xml:space="preserve">
+    <value>बैलट यूनिट</value>
+  </data>
+  <data name="ControlUnit" xml:space="preserve">
+    <value>कन्ट्रोल यूनिट</value>
+  </data>
+  <data name="DeActivateStockMaster" xml:space="preserve">
+    <value>निष्क्रिय करें</value>
+  </data>
+  <data name="UpdateStockMaster" xml:space="preserve">
+    <value>अपडेट  करें</value>
+  </data>
+  <data name="ReActivateStockMaster" xml:space="preserve">
+    <value>पुन: सक्रिय</value>
+  </data>
+  <data name="menuEVMList" xml:space="preserve">
+    <value>ईवीएम यूनिट सूची</value>
+  </data>
+  <data name="menuBallotHeader" xml:space="preserve">
+    <value>मतपेटी</value>
+  </data>
+  <data name="menuEVMHeader" xml:space="preserve">
+    <value>ईवीएम</value>
+  </data>
+  <data name="menuStationaryHeader" xml:space="preserve">
+    <value>स्टॉक और स्टेशनरी</value>
+  </data>
+  <data name="menuDisposeStationery" xml:space="preserve">
+    <value>डिस्पोज़ करें</value>
+  </data>
+  <data name="menuConsumedStationery" xml:space="preserve">
+    <value>खपत अपडेट करें</value>
+  </data>
+  <data name="PageResource1" xml:space="preserve">
+    <value>इन्वेंटरी एम.आई.एस. राज्य निर्वाचन आयोग,  हिमाचल प्रदेश</value>
+  </data>
+  <data name="menuStationaryStockSummary" xml:space="preserve">
+    <value>यूनिट सारांश</value>
+  </data>
+  <data name="menuBBUnitList" xml:space="preserve">
+    <value>यूनिट सूची</value>
+  </data>
+  <data name="lblCode" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+  <data name="lblPradhanRes" xml:space="preserve">
+    <value>प्रधान आरक्षण स्थिति</value>
+  </data>
+  <data name="lblPrevRes" xml:space="preserve">
+    <value>पूर्व आरक्षण स्थिति</value>
+  </data>
+  <data name="menuPSWardMaster" xml:space="preserve">
+    <value>पंचायत समिति वार्ड आरक्षण</value>
+  </data>
+  <data name="menuUserList" xml:space="preserve">
+    <value>उपयोगकर्ता सूची</value>
+  </data>
+  <data name="menuUserManagement" xml:space="preserve">
+    <value>उपयोगकर्ता प्रबंधन</value>
+  </data>
+  <data name="menuZPWardMaster" xml:space="preserve">
+    <value>जिला परिषद वार्ड आरक्षण</value>
+  </data>
+  <data name="lblElector" xml:space="preserve">
+    <value>निर्वाचक</value>
+  </data>
+  <data name="lblNomCandidates" xml:space="preserve">
+    <value>नामांकन सूची</value>
+  </data>
+  <data name="menuPollResultSummary" xml:space="preserve">
+    <value>पोल परिणाम सारांश</value>
+  </data>
+  <data name="menuProfilerSummary" xml:space="preserve">
+    <value>प्रोफाइलर सारांश</value>
+  </data>
+  <data name="Unopposed" xml:space="preserve">
+    <value>निर्विरोध चुने गए</value>
+  </data>
+  <data name="noDataWards" xml:space="preserve">
+    <value>बिना डेटा वाले वार्ड</value>
+  </data>
+  <data name="noDataPollStations" xml:space="preserve">
+    <value>बिना डेटा वाले मतदान केंद्र</value>
+  </data>
+  <data name="menuBallotBoxDashboard" xml:space="preserve">
+    <value>मतपेटी डैशबोर्ड</value>
+  </data>
+</root>

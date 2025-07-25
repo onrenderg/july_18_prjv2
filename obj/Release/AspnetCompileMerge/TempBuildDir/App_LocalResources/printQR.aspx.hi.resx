@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cancel_buttonResource1.Text" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="cancel_buttonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAvailableAtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMakeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlModelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlYrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="existing_block_gridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="existing_block_gridResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="existing_block_gridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_errorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_errorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value>क्यूआर कोड प्रिंट करें</value>
+  </data>
+  <data name="lblTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkDeleteResource1.Text" xml:space="preserve">
+    <value>
+                                                &lt;i class="mdi mdi-lg-4 mdi-delete"&gt;&lt;/i&gt;&lt;%=Resources.Resource.lnkDelete %&gt;</value>
+  </data>
+  <data name="lnkDeleteResource1.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lnkEditResource1.Text" xml:space="preserve">
+    <value>&lt;i class="mdi mdi-lg-4 mdi-table-edit"&gt;&lt;/i&gt;&lt;%=Resources.Resource.lnkEdit %&gt;</value>
+  </data>
+  <data name="lnkEditResource1.ToolTip" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Inventory Management Information System - State Election Commission, Himachal Pradesh</value>
+  </data>
+  <data name="rbUnitTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="save_buttonResource1.Text" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="save_buttonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>क्यूआर आईडी</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLatResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLatResource1.ToolTip" xml:space="preserve">
+    <value>Latitude of EVM's Current Location</value>
+  </data>
+  <data name="txtLongResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLongResource1.ToolTip" xml:space="preserve">
+    <value>Longitude of EVM's Current Location</value>
+  </data>
+  <data name="txtUnitIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUnitIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUnitSrNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUnitSrNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="errEVMExist" xml:space="preserve">
+    <value>ईवीएम यूनिट पहले से मौजूद है</value>
+  </data>
+  <data name="errNoMake" xml:space="preserve">
+    <value>निर्माता का नाम आवश्यक है</value>
+  </data>
+  <data name="errNoModel" xml:space="preserve">
+    <value>मॉडल का नाम आवश्यक है</value>
+  </data>
+  <data name="errNoMonth" xml:space="preserve">
+    <value>निर्मित होने का महीना आवश्यक है</value>
+  </data>
+  <data name="errNoPlace" xml:space="preserve">
+    <value>वर्तमान स्थान (जिला) का नाम आवश्यक है</value>
+  </data>
+  <data name="errNoYear" xml:space="preserve">
+    <value>निर्मित होने का वर्ष आवश्यक है</value>
+  </data>
+  <data name="errSrNoRequired" xml:space="preserve">
+    <value>ईवीएम यूनिट का सीरियल नंबर आवश्यक है</value>
+  </data>
+  <data name="lblAvailableAt" xml:space="preserve">
+    <value>वर्तमान स्थान (जिला)</value>
+  </data>
+  <data name="lblLat" xml:space="preserve">
+    <value>अक्षांश (Latitude)</value>
+  </data>
+  <data name="lblLong" xml:space="preserve">
+    <value>देशांतर (Longitude)</value>
+  </data>
+  <data name="lblMake" xml:space="preserve">
+    <value>निर्माता का नाम</value>
+  </data>
+  <data name="lblManfacturedOn" xml:space="preserve">
+    <value>निर्मित होने का महीना/वर्ष</value>
+  </data>
+  <data name="lblModel" xml:space="preserve">
+    <value>मॉडल का नाम </value>
+  </data>
+  <data name="lblUnitID" xml:space="preserve">
+    <value>यूनिट आइडी</value>
+  </data>
+  <data name="lblUnitSrNo" xml:space="preserve">
+    <value>यूनिट सीरियल नम्बर</value>
+  </data>
+  <data name="lblWorkingStatus" xml:space="preserve">
+    <value>परिचालन स्थिति</value>
+  </data>
+  <data name="rbUnitType" xml:space="preserve">
+    <value>ईवीएम यूनिट का प्रकार</value>
+  </data>
+  <data name="msgSave" xml:space="preserve">
+    <value>रिकॉर्ड सफलतापूर्वक सहेजा गया</value>
+  </data>
+  <data name="msgUpdate" xml:space="preserve">
+    <value>रिकॉर्ड सफलतापूर्वक अपडेट किया गया</value>
+  </data>
+  <data name="errNotDeleted" xml:space="preserve">
+    <value>रिकॉर्ड को नहीं हटाया जा सका</value>
+  </data>
+  <data name="msgDeleted" xml:space="preserve">
+    <value>रिकॉर्ड को सफलतापूर्वक हटा दिया गया है</value>
+  </data>
+  <data name="view_buttonResource1.Text" xml:space="preserve">
+    <value>क्यूआर कोड प्रिंट करें</value>
+  </data>
+  <data name="NothingToPrint" xml:space="preserve">
+    <value>प्रिंट करने के लिए कोई क्यूआर कोड नहीं मिला। ईवीएम यूनिट जोड़ें।</value>
+  </data>
+  <data name="lblUnitSeries" xml:space="preserve">
+    <value>श्रृंखला, यदि कोई हो</value>
+  </data>
+  <data name="TemplateFieldResource10.HeaderText" xml:space="preserve">
+    <value>श्रृंखला</value>
+  </data>
+  <data name="errNoRecord" xml:space="preserve">
+    <value>कोई रिकॉर्ड नहीं मिला</value>
+  </data>
+  <data name="btnSrIdResource1.Text" xml:space="preserve">
+    <value>क्यूआर सूची प्रिंट करें</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>मतपेटी का आकार</value>
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>सीरियल नंबर</value>
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>निर्माता </value>
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>मॉडल</value>
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>निर्मित होने का महीना-वर्ष</value>
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>खरीदने का महीना-वर्ष</value>
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>कार्य स्थिति</value>
+  </data>
+  <data name="nowarehouse" xml:space="preserve">
+    <value>कृपया गोदाम चुनें</value>
+  </data>
+  <data name="view_on_map_buttonResource1.text" xml:space="preserve">
+    <value>मैप पर देखें </value>
+  </data>
+  <data name="btnMap.Text" xml:space="preserve">
+    <value>मैप पर गोदाम देखें</value>
+  </data>
+</root>

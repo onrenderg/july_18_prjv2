@@ -1,0 +1,525 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="SEC_InventoryMgmt.Site" meta:resourcekey="PageResource1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+        name="keywords"
+        content="State Election Commission, Himachal Pradesh, Inventory Management" />
+    <meta
+        name="description"
+        content="State Election Commission, Himachal Pradesh" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title><asp:Literal ID="litTitle" runat="server"></asp:Literal></title>
+    <%--<title>Inventory Management System - State Election Commission, Himachal Pradesh</title>--%>
+    <!-- Favicon icon -->
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="assets/images/favicon.png" />
+      <script src="assets/libs/jquery/dist/jquery-3.7.1.min.js"></script>
+    <link
+        href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css"
+        rel="stylesheet" />
+    <!-- Custom CSS -->
+
+    <link href="assets/libs/flot/css/float-chart.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="dist/css/style.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        th {
+            background-color: #000F60;
+            color: whitesmoke;
+        }
+
+        input[type=radio] {
+            margin-left: 30px;
+        }
+
+            input[type=radio]:first-child {
+                margin-left: 10px;
+            }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <div class="preloader">
+            <div class="lds-ripple">
+                <div class="lds-pos"></div>
+                <div class="lds-pos"></div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Main wrapper - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <div id="main-wrapper"
+            data-layout="vertical"
+            data-navbarbg="skin5"
+            data-sidebartype="full"
+            data-sidebar-position="absolute"
+            data-header-position="absolute"
+            data-boxed-layout="full">
+            <!-- ============================================================== -->
+            <!-- Topbar header - style you can find in pages.scss -->
+            <!-- ============================================================== -->
+            <header class="topbar" data-navbarbg="skin5">
+                <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                    <div class="navbar-header" data-logobg="skin5">
+                        <!-- ============================================================== -->
+                        <!-- Logo -->
+                        <!-- ============================================================== -->
+                        <a class="navbar-brand" href="https://secHimachal.nic.in" target="_blank">
+                            <!-- Logo icon -->
+                            <b class="logo-icon p-l-10">
+                                <!-- Dark Logo icon -->
+                                <img src="assets/images/secLogo50.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span class="logo-text">
+                                <!-- dark Logo text -->
+                                <img id="imgEn" src="assets/images/logo-text.png" width="178" alt="homepage" class="light-logo" />
+                                <img id="imgHi" src="assets/images/logo-text-hindi.png" alt="homepage" class="light-logo" />
+                            </span>
+                        </a>
+                        <!-- ============================================================== -->
+                        <!-- End Logo -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Toggle which is visible on mobile only -->
+                        <!-- ============================================================== -->
+                        <a
+                            class="nav-toggler waves-effect waves-light d-block d-md-none"
+                            href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <div
+                        class="navbar-collapse collapse"
+                        id="navbarSupportedContent"
+                        data-navbarbg="skin5">
+                        <!-- ============================================================== -->
+                        <!-- toggle and nav items -->
+                        <!-- ============================================================== -->
+                        <ul class="navbar-nav float-start me-auto">
+                            <li class="nav-item d-none d-lg-block">
+                                <a
+                                    class="nav-link sidebartoggler waves-effect waves-light"
+                                    href="javascript:void(0)"
+                                    data-sidebartype="mini-sidebar"><i class="mdi mdi-menu font-24"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav float-none me-auto">
+                            <li class="nav-justified">
+                                <h3 class="waves-dark bg-transparent" style="color: whitesmoke; margin: 5px; vertical-align: middle;"><%=Resources.Resource.ApplicationName%></h3>
+                                <h5 class="waves-dark bg-transparent" style="text-align: center; color: whitesmoke; margin: 5px; vertical-align: middle;"><%=Resources.Resource.SEC %></h5>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav float-end">
+                            <li class="nav-item waves-effect waves-dark dropdown-menu-right">
+                                <div style="float: right">
+                                    <asp:DropDownList runat="server" ID="ddllang" AutoPostBack="True" CssClass="dropdown-menu-dark" meta:resourcekey="ddllangResource1">
+                                        <asp:ListItem Text="हिन्दी" Value="hi-IN" Selected="True" meta:resourcekey="ListItemResource1"> </asp:ListItem>
+                                        <asp:ListItem Text="English" Value="en-GB" meta:resourcekey="ListItemResource2"></asp:ListItem>
+                                    </asp:DropDownList>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- ============================================================== -->
+                        <!-- Right side toggle and nav items -->
+                        <!-- ============================================================== -->
+                        <ul class="navbar-nav float-end">
+                            <!-- ============================================================== -->
+                            <!-- User profile and search -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="#"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img
+                                        src="assets/images/users/1.jpg"
+                                        alt="user"
+                                        class="rounded-circle"
+                                        width="31" />
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end user-dd animated" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="changePassword.aspx"><i class="ti-key m-r-5 m-l-5"></i><%= Resources.Resource.menuChangePassword %></a>
+                                    <a class="dropdown-item" href="logout.aspx"><i class="fa fa-power-off me-1 ms-1"></i><%= Resources.Resource.menuLogout %></a>
+                                </div>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- User profile and search -->
+                            <!-- ============================================================== -->
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- ============================================================== -->
+            <!-- End Topbar header -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Left Sidebar - style you can find in sidebar.scss  -->
+            <!-- ============================================================== -->
+            <aside class="left-sidebar" data-sidebarbg="skin5">
+                <!-- Sidebar scroll-->
+                <div class="scroll-sidebar">
+                    <!-- Sidebar navigation-->
+                    <nav class="sidebar-nav">
+                        <ul id="sidebarnav" class="pt-4">
+                            <li class="sidebar-item">
+                                <a
+                                    class="sidebar-link waves-effect waves-dark sidebar-link"
+                                    href="index.aspx"
+                                    aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu"><%= Resources.Resource.menuHome %></span></a>
+                            </li>
+                            <%--EVM AREA--%>
+                            <% If (Session("UserLevel").ToString <> "002" And Session("UserLevel").ToString <> "003") Or Session("NNN_Code").ToString() = "003" Then %>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu"><%= Resources.Resource.menuEVMHeader %></span></a>
+                                <ul aria-expanded="false" class="collapse first-level">
+                                  <li Class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="viewEVM.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu"><%= Resources.Resource.menuEVMSummary %></span></a>
+                                </li>
+                                  <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="viewLocation.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-library"></i><span class="hide-menu"><%= Resources.Resource.menuEVMList %></span></a>
+                                    </li>
+                                <% If session("UserLevel").ToString = "012" Or Session("UserLevel").ToString = "013" Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="generateQR.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-qrcode"></i><span class="hide-menu"><%= Resources.Resource.menuGenerateQR %></span></a>
+                                </li>
+                                <% End If%>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="printQR.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-qrcode"></i><span class="hide-menu"><%= Resources.Resource.menuPrintQR %></span></a>
+                                </li>
+                                <% If session("UserLevel").ToString = "001" Or Session("UserLevel").ToString = "006" Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="listFLC.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-layers"></i><span class="hide-menu"><%= Resources.Resource.menuViewFLC %></span></a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="updateFLCDetails.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-checkbox-marked-outline"></i><span class="hide-menu"><%= Resources.Resource.menuUpdateFLC %></span></a>
+                                </li>
+
+                                <% End IF %>
+
+                                <% If session("UserLevel").ToString = "000" Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="viewWarehouse.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-home-map-marker"></i><span class="hide-menu"><%= Resources.Resource.menuViewWarehouse %></span></a>
+                                </li>
+                                <% End IF %>
+                                
+                                <% If session("UserLevel").ToString = "012" Or Session("UserLevel").ToString = "013" Or Session("UserLevel").ToString = "001" Or Session("UserLevel").ToString = "006" Or Session("UserLevel").ToString = "002" Or Session("UserLevel").ToString = "003" Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="allocateEVM.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-sitemap"></i><span class="hide-menu"><%= Resources.Resource.menuAllocateEVM %></span></a>
+                                </li>
+                                <% End IF %>
+                                </ul>
+                              </li>
+                            <% End IF %>
+                            <%--EVM AREA END--%>
+                            
+                            <%--Stationary AREA--%>
+                             <li class="sidebar-item">
+                                <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><%= Resources.Resource.menuStationaryHeader %></span></a>
+                                <ul aria-expanded="false" class="collapse first-level">
+                                    
+                                <% If  Not(session("UserLevel").ToString = "007" Or Session("UserLevel").ToString = "012" Or Session("UserLevel").ToString = "013") Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="updateStationeryStock.aspx"
+                                        aria-expanded="false">
+                                        <i class="mdi mdi-package-variant"></i>
+                                        <span class="hide-menu"><%= Resources.Resource.menuUpdateStationeryStock %></span></a>
+                                </li>
+                                <% End IF %>
+                                <% If session("UserLevel").ToString = "000" Or Session("UserLevel").ToString = "001" Or Session("UserLevel").ToString = "006" Or Session("UserLevel").ToString = "002" Or Session("UserLevel").ToString = "003" Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="StationeryStockAllocation.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-swap-horizontal"></i><span class="hide-menu"><%= Resources.Resource.menuAllocateStationery %></span></a>
+                                </li>
+                                <% End IF %>
+
+                                
+
+                                <% If session("UserLevel").ToString = "000" Or Session("UserLevel").ToString = "001" Or Session("UserLevel").ToString = "006" Or Session("UserLevel").ToString = "002" Or Session("UserLevel").ToString = "003" Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="StationeryStockConsume.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-delete"></i><span class="hide-menu"><%= Resources.Resource.menuConsumedStationery %></span></a>
+                                </li>
+                                <% End IF %>
+
+                                <% If session("UserLevel").ToString = "000" Or Session("UserLevel").ToString = "001" Or Session("UserLevel").ToString = "006" Or Session("UserLevel").ToString = "002" Or Session("UserLevel").ToString = "003" Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="StationeryStockDispose.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-delete-variant"></i><span class="hide-menu"><%= Resources.Resource.menuDisposeStationery %></span></a>
+                                </li>
+                                <% End IF %>
+                            
+                                
+                                <% If session("UserLevel").ToString = "000" Or Session("UserLevel").ToString = "001" Or Session("UserLevel").ToString = "006" Or Session("UserLevel").ToString = "002" Or Session("UserLevel").ToString = "003" Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="StationeryStockSummary.aspx"
+                                        aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu"><%= Resources.Resource.menuStationaryStockSummary %></span></a>
+                                </li>
+                                <% End IF %>
+
+                                <% If session("UserLevel").ToString = "000" Then %>
+                                <li class="sidebar-item">
+                                    <a
+                                        class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="updateStationeryMasters.aspx"
+                                        aria-expanded="false">
+                                        <i class="mdi mdi-pencil-box-outline"></i>
+                                        <span class="hide-menu"><%= Resources.Resource.menuUpdateStock %></span></a>
+                                </li>
+                                <% End IF %>
+                            </ul>
+                              </li>
+                            <%--Stationary AREA END--%>
+
+                            <%--Ballot AREA--%>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-border-inside"></i><span class="hide-menu"><%= Resources.Resource.menuBallotHeader %></span></a>
+                                <ul aria-expanded="false" class="collapse first-level">
+
+<%--                             @@mgogo NEW LINK FOR BALLOT BOX DASHBOARD --%>
+                            <li class="sidebar-item">
+                                <a
+                                    class="sidebar-link waves-effect waves-dark sidebar-link"
+                                    href="BallotBoxDashboard.aspx" 
+                                    aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu"><%= Resources.Resource.menuBallotBoxDashboard %></span></a>
+                            </li>
+<%--                            @@mgogo --%>
+
+                            <li class="sidebar-item">
+                                <a
+                                    class="sidebar-link waves-effect waves-dark sidebar-link"
+                                    href="addBallotBox.aspx"
+                                    aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><%= Resources.Resource.menuAddBallot %></span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a
+                                    class="sidebar-link waves-effect waves-dark sidebar-link"
+                                    href="BallotBoxAllocation.aspx"
+                                    aria-expanded="false"><i class="mdi mdi-swap-horizontal"></i><span class="hide-menu"><%= Resources.Resource.menuBallotBoxAllocation %></span></a>
+                            </li>
+                            
+                            <li class="sidebar-item">
+                                <a
+                                    class="sidebar-link waves-effect waves-dark sidebar-link"
+                                    href="viewBallotBox.aspx"
+                                    aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu"><%= Resources.Resource.MenuBBSummary %></span></a>
+                            </li>
+                            
+                            <li class="sidebar-item">
+                                <a
+                                    class="sidebar-link waves-effect waves-dark sidebar-link"
+                                    href="viewBallotBoxList.aspx"
+                                    aria-expanded="false"><i class="mdi mdi-library"></i><span class="hide-menu"><%= Resources.Resource.menuBBUnitList %></span>
+                                </a>
+                            </li>
+                            </ul>
+                                </li>
+                            <%--Ballot AREA--%>
+
+                            <% If session("UserLevel").ToString <> "000" Then %>
+                            <li class="sidebar-item">
+                                <a
+                                    class="sidebar-link waves-effect waves-dark sidebar-link"
+                                    href="MobileApp/EVM_Tracking.apk"
+                                    aria-expanded="false"><i class="mdi mdi-download"></i><span class="hide-menu"><%= Resources.Resource.menuMobileApp %></span></a>
+                            </li>
+                            <% End IF %>
+
+
+                            <li class="hide sidebar-item">
+                                <a
+                                    class="sidebar-link waves-effect waves-dark sidebar-link"
+                                    href="addStore.aspx"
+                                    aria-expanded="false"><i class="mdi mdi-lock-plus"></i><span class="hide-menu"><%= Resources.Resource.menuAddStore %></span></a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <!-- End Sidebar navigation -->
+                </div>
+                <!-- End Sidebar scroll-->
+            </aside>
+            <!-- ============================================================== -->
+            <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Page wrapper  -->
+            <!-- ============================================================== -->
+            <div class="page-wrapper">
+
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <%--   <div class="page-breadcrumb">
+                    <div class="row">
+                        <div class="col-12 d-flex no-block align-items-center">
+                            <h4 class="page-title">Dashboard</h4>
+                            <div class="ms-auto text-end">
+                                <nav aria-label="breadcrumb">
+                                   <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Library
+                    </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>--%>
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Container fluid  -->
+                <!-- ============================================================== -->
+                <div class="container-fluid">
+                    <div class="alert alert-success row align-baseline" role="alert">
+                        <h5 class="alert-heading"><i class="mdi mdi-human-greeting"></i>&nbsp;<asp:Label ID="lblName" runat="server" Text=""></asp:Label>
+                            <asp:Label ID="lblRole" runat="server" Text="" CssClass="font-14" Font-Bold="false"></asp:Label>
+                        </h5>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Sales Cards  -->
+                    <!-- ============================================================== -->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <!-- ============================================================== -->
+                    <!-- End Container fluid  -->
+                    <!-- ============================================================== -->
+
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Page wrapper  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- footer -->
+                <!-- ============================================================== -->
+                <footer class="footer text-center">
+                    
+                </footer>
+                <!-- ============================================================== -->
+                <!-- End footer -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Page wrapper  -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Wrapper -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- All Jquery -->
+        <!-- ============================================================== -->
+        <!-- Bootstrap tether Core JavaScript -->
+        <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- slimscrollbar scrollbar JavaScript -->
+        <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+        <script src="assets/extra-libs/sparkline/sparkline.js"></script>
+        <!--Wave Effects -->
+        <script src="dist/js/waves.js"></script>
+        <!--Menu sidebar -->
+        <script src="dist/js/sidebarmenu.js"></script>
+        <!--Custom JavaScript -->
+        <script src="dist/js/custom.min.js"></script>
+              
+        <!-- this page js -->
+        <asp:ContentPlaceHolder ID="footer" runat="server">
+            <script>
+                $(".preloader").fadeOut();
+                $('#<%= ddllang.ClientID%>').on("change", function () {
+                    $(this).find("option:selected").each(function () {
+                        var optionValue = $(this).attr("value");
+                        // alert(optionValue);
+                        if (optionValue == 'en-GB') {
+                            $("#imgHi").hide();
+                            $("#imgEn").show();
+                        }
+                        else {
+                            $("#imgHi").show();
+                            $("#imgEn").hide();
+                        }
+                    })
+                });
+
+                $(document).ready(function () {
+                    $('#<%= ddllang.ClientID%>').find("option:selected").each(function () {
+                        var optionValue = $(this).attr("value");
+                        //alert(optionValue);
+                        if (optionValue == 'en-GB') {
+                            $("#imgHi").hide();
+                            $("#imgEn").show();
+                        }
+                        else {
+
+                            $("#imgHi").show();
+                            $("#imgEn").hide();
+                        }
+                    })
+                });
+            </script>
+
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

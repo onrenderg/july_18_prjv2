@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtbchangeCaptchaResource1.Title" xml:space="preserve">
+    <value>चेंज</value>
+  </data>
+  <data name="btnLogInResource1.Text" xml:space="preserve">
+    <value>लॉग इन</value>
+  </data>
+  <data name="lblheader.Text" xml:space="preserve">
+    <value>उपयोगकर्ता लॉगिन</value>
+  </data>
+  <data name="lblLanguageResource1.Text" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="lblPasswordResource1.PlaceHolder" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="lbluseridResource1.PlaceHolder" xml:space="preserve">
+    <value>यूजर आईडी </value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>इन्वेंटरी एम.आई.एस. राज्य निर्वाचन आयोग,  हिमाचल प्रदेश</value>
+  </data>
+  <data name="SkipNavigation.Text" xml:space="preserve">
+    <value>नेविगेशन छोड़ें</value>
+  </data>
+  <data name="lnkForgetPasswordResource1.Text" xml:space="preserve">
+    <value>पासवर्ड भूल गए?</value>
+  </data>
+  <data name="lnkEmailIdResource1.PlaceHolder" xml:space="preserve">
+    <value>यूजर आईडी</value>
+  </data>
+  <data name="rfvUserName.ErrorMessage" xml:space="preserve">
+    <value>*अनिवार्य</value>
+  </data>
+  <data name="txtUserID.PlaceHolder" xml:space="preserve">
+    <value>यूजर आईडी</value>
+  </data>
+  <data name="lblFPMsg.Text" xml:space="preserve">
+    <value>कृपया अपना यूजर आईडी दर्ज करें</value>
+  </data>
+  <data name="lblMailSent.Title" xml:space="preserve">
+    <value>आपके पंजीकृत ईमेल आईडी व मोबाइल नं. पर ओटीपी भेज दिया गया है। पासवर्ड रीसेट करने के लिए कृपया अपना ओटीपी दर्ज करें</value>
+  </data>
+  <data name="AccountLocked" xml:space="preserve">
+    <value>बार-बार विफल लॉगिन प्रयासों के कारण आपका खाता लॉक कर दिया गया है, 5 मिनट के बाद खाते स्वतः अनलॉक हो जाएंगे</value>
+  </data>
+  <data name="BtbchangeCaptchaResource1.Tooltip" xml:space="preserve">
+    <value>कैप्चा कोड बदलें</value>
+  </data>
+  <data name="errCaptcha" xml:space="preserve">
+    <value>अमान्य कैप्चा कोड</value>
+  </data>
+  <data name="errDbConn" xml:space="preserve">
+    <value>डेटाबेस कनेक्शन स्थापित नहीं किया जा सका!</value>
+  </data>
+  <data name="errMsg" xml:space="preserve">
+    <value>लॉग इन करते समय त्रुटि हुई</value>
+  </data>
+  <data name="invalidUser" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता आईडी या पासवर्ड</value>
+  </data>
+  <data name="NoUser" xml:space="preserve">
+    <value>उपयोगकर्ता नहीं मिला</value>
+  </data>
+  <data name="txtCapResource1.PlaceHolder" xml:space="preserve">
+    <value>कैप्चा कोड</value>
+  </data>
+  <data name="txtCapResource1.Tooltip" xml:space="preserve">
+    <value>छवि में दिखाए गए वर्ण दर्ज करें</value>
+  </data>
+  <data name="lblCurProgram" xml:space="preserve">
+    <value>पीआरआई कार्यकाल के लिए चुनाव कार्यक्रम</value>
+  </data>
+  <data name="lblFinalList" xml:space="preserve">
+    <value>वैध रूप से नामांकित उम्मीदवारों की सूची</value>
+  </data>
+  <data name="BtbResendOTPResource1.Title" xml:space="preserve">
+    <value>ओटीपी फिर से भेजें</value>
+  </data>
+  <data name="BtbResendOTPResource1.Tooltip" xml:space="preserve">
+    <value>ओटीपी फिर से भेजें</value>
+  </data>
+  <data name="btnsendOtpResource1.Text" xml:space="preserve">
+    <value>आगे बढ़ें</value>
+  </data>
+  <data name="btnVerifyResource1.Text" xml:space="preserve">
+    <value>सत्यापित करें</value>
+  </data>
+  <data name="lblNoElection" xml:space="preserve">
+    <value>कोई चुनाव कार्यक्रम मौजूद नहीं है!</value>
+  </data>
+  <data name="lblNomination" xml:space="preserve">
+    <value>नामांकन सूची</value>
+  </data>
+  <data name="lblPollDate" xml:space="preserve">
+    <value>मतदान की तारीख</value>
+  </data>
+  <data name="lblResultDate" xml:space="preserve">
+    <value>मतदान परिणाम</value>
+  </data>
+  <data name="lblScrutiny" xml:space="preserve">
+    <value>संवीक्षा सूची</value>
+  </data>
+  <data name="lnkOTPResource1.PlaceHolder" xml:space="preserve">
+    <value>ओटीपी दर्ज करें</value>
+  </data>
+  <data name="hpgovt" xml:space="preserve">
+    <value>हिमाचल प्रदेश सरकार, भारत</value>
+  </data>
+  <data name="lblWithdrawal" xml:space="preserve">
+    <value>नामांकन वापसी सूची</value>
+  </data>
+  <data name="txtERMS" xml:space="preserve">
+    <value>राज्य निर्वाचन आयोग हिमाचल प्रदेश द्वारा पंचायतों और शहरी स्थानीय निकायों के चुनाव कराने के लिए मतदाता सूची के प्रबंधन के लिए ईआरएमएस सॉफ्टवेयर विकसित किया गया है।</value>
+  </data>
+  <data name="txtERMSSearch" xml:space="preserve">
+    <value>राज्य निर्वाचन आयोग हिमाचल प्रदेश द्वारा जनता के लिए निर्वाचक नामावली की सुविधा। व्यक्तिगत मतदाताओं की खोज की जा सकती है और वार्ड वार मतदाता सूची देखी जा सकती है। मतदाता सूची देखने/ खोजने के लिए मोबाइल ऐप &lt;a href='https://play.google.com/store/apps/details?id=nic.hp.erms' target='_blank'&gt;इलेक्टर सर्च हिमाचल&lt;/a&gt; भी उपलब्ध है।</value>
+  </data>
+  <data name="txtFooter" xml:space="preserve">
+    <value>इस वेबसाइट से संबंधित किसी भी प्रश्न के लिए, कृपया वेब सूचना प्रबंधक: राज्य चुनाव आयोग, हिमाचल प्रदेश से संपर्क करें।
+&lt;br /&gt; एनआईसी हिमाचल प्रदेश द्वारा डिजाइन और विकसित।</value>
+  </data>
+  <data name="txtOffWebSiteHP" xml:space="preserve">
+    <value>हिमाचल प्रदेश की आधिकारिक वेबसाइट</value>
+  </data>
+  <data name="txtOffWebSiteSec" xml:space="preserve">
+    <value>राज्य निर्वाचन आयोग, हिमाचल प्रदेश की आधिकारिक वेबसाइट</value>
+  </data>
+  <data name="aAllSummary" xml:space="preserve">
+    <value>प्रोफाइलर सारांश</value>
+  </data>
+  <data name="errUserId" xml:space="preserve">
+    <value>अमान्य यूजर आईडी</value>
+  </data>
+  <data name="IdEmptyMsg" xml:space="preserve">
+    <value>यूजर आईडी खाली नहीं हो सकता</value>
+  </data>
+  <data name="IdSizeMsg" xml:space="preserve">
+    <value>यूजर आईडी की लंबाई 30 वर्णों से अधिक नहीं हो सकती</value>
+  </data>
+  <data name="PassEmptyMsg" xml:space="preserve">
+    <value>पासवर्ड खाली नहीं हो सकता</value>
+  </data>
+  <data name="PassSizeMsg" xml:space="preserve">
+    <value>पासवर्ड में कम से कम 8 अक्षर होने चाहिए</value>
+  </data>
+</root>
